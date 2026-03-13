@@ -28,7 +28,7 @@ export default function App() {
   const [messages, setMessages] = useState<{ role: 'user' | 'siggy'; text: string; time: string; isTyping?: boolean }[]>([
     { 
       role: 'siggy', 
-      text: "Meowtual! Hihihi! I'm Siggy! How can I help you today? :D",
+      text: "Meowtual! Hihihi! I'm Siggy! Is there any fun that you want to share? :D",
       time: "" 
     }
   ]);
