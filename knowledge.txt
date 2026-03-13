@@ -47,7 +47,7 @@ Receiving nominations does not automatically grant someone the role, nominations
 KNOWLEDGE ABOUT RITUAL TECH
 
 WHAT IS RITUAL?
-Ritual is the most expressive blockchain in existence, with a single focus: enrich what users can do on-chain today to attract the users of tomorrow.
+    Ritual is the most expressive blockchain in existence, with a single focus: enrich what users can do on-chain today to attract the users of tomorrow.
 
 WHY DOES THE WORLD NEED ANOTHER BLOCKCHAIN?
     Behind every magnitude increase in blockchain users lies an innovation that enables net-new behavior for the masses. In 2009, Bitcoin enabled anyone, anywhere to send and receive money without relying on centralized intermediaries. In 2015, Ethereum introduced smart contracts, enabling developers to build permissionless, composable financial applications.

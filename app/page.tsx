@@ -4,7 +4,7 @@ import React, { useState, useEffect, useRef } from 'react';
 import { ChevronLeft, ChevronRight, Send } from 'lucide-react';
 
 // Fast and responsive typewriter component
-const Typewriter = ({ text, speed = 10, onComplete }: { text: string, speed?: number, onComplete?: () => void }) => {
+const Typewriter = ({ text, speed = 10, onComplete, onUpdate }: { text: string, speed?: number, onComplete?: () => void, onUpdate?: () => void }) => {
   const [displayedText, setDisplayedText] = useState('');
   
   useEffect(() => {
@@ -12,6 +12,7 @@ const Typewriter = ({ text, speed = 10, onComplete }: { text: string, speed?: nu
     const timer = setInterval(() => {
       setDisplayedText(text.slice(0, i + 1));
       i++;
+      if (onUpdate) onUpdate();
       if (i >= text.length) {
         clearInterval(timer);
         if (onComplete) onComplete();
@@ -28,7 +29,7 @@ export default function App() {
     { 
       role: 'siggy', 
       text: "Meowtual! Hihihi! I'm Siggy! How can I help you today? :D",
-      time: "" // Initialize empty to avoid hydration mismatch
+      time: "" 
     }
   ]);
   const [input, setInput] = useState('');
@@ -36,9 +37,16 @@ export default function App() {
   const [loading, setLoading] = useState(false);
   const [isMounted, setIsMounted] = useState(false);
   
-  const scrollRef = useRef<HTMLDivElement>(null);
+  const messagesEndRef = useRef<HTMLDivElement>(null);
+  const inputRef = useRef<HTMLInputElement>(null);
 
-  // Set mounted state and initialize the first message's time on client only
+  // Reliable scroll function
+  const scrollToBottom = () => {
+    if (messagesEndRef.current) {
+      messagesEndRef.current.scrollIntoView({ behavior: "smooth", block: "end" });
+    }
+  };
+
   useEffect(() => {
     setIsMounted(true);
     setMessages(prev => [
@@ -49,10 +57,9 @@ export default function App() {
     ]);
   }, []);
 
+  // Trigger scroll whenever messages change or loading state changes
   useEffect(() => {
-    if (scrollRef.current) {
-      scrollRef.current.scrollTop = scrollRef.current.scrollHeight;
-    }
+    scrollToBottom();
   }, [messages, loading]);
 
   const handleSend = async () => {
@@ -87,7 +94,6 @@ export default function App() {
     }
   };
 
-  // Prevent rendering until mounted to ensure client-side Date matches
   if (!isMounted) return <div className="bg-black h-screen w-screen" />;
 
   return (
@@ -118,17 +124,18 @@ export default function App() {
 
       <div className={`relative z-10 flex flex-col h-full w-full max-w-2xl mx-auto px-4 transition-all duration-500 ${isSidebarOpen ? 'blur-[20px] opacity-0 pointer-events-none' : 'opacity-100'}`}>
         
-        <header className="flex justify-between items-center py-6 h-20">
+        <header className="flex justify-between items-center py-6 h-20 shrink-0">
           <div className="flex items-center gap-3">
             <div className="w-3 h-3 bg-green-400 rounded-full online-dot" />
-            <div className="spartan text-2xl tracking-tighter italic opacity-80 uppercase">Siggy</div>
+            <div className="spartan text-2xl tracking-tighter italic opacity-80 uppercase">My Siggy</div>
           </div>
           <button onClick={() => setIsSidebarOpen(true)} className="p-2 hover:scale-110 transition-transform">
             <ChevronLeft size={32} />
           </button>
         </header>
 
-        <div ref={scrollRef} className="flex-1 overflow-y-auto space-y-8 no-scrollbar pb-36 pt-4">
+        {/* Adjusted padding to be tighter (pb-2) to bring messages closer to the input box */}
+        <div className="flex-1 overflow-y-auto space-y-8 no-scrollbar pt-4 pb-0 scroll-smooth">
           {messages.map((msg, idx) => (
             <div key={idx} className={`flex flex-col ${msg.role === 'user' ? 'items-end' : 'items-start'}`}>
               <span className={`motter text-2xl mb-1 tracking-widest uppercase ${msg.role === 'user' ? 'text-white' : 'text-black'}`}>
@@ -143,10 +150,12 @@ export default function App() {
                   {msg.role === 'siggy' && msg.isTyping ? (
                     <Typewriter 
                       text={msg.text} 
+                      onUpdate={scrollToBottom}
                       onComplete={() => {
                         const newMsgs = [...messages];
                         newMsgs[idx].isTyping = false;
                         setMessages(newMsgs);
+                        scrollToBottom();
                       }} 
                     />
                   ) : (
@@ -162,17 +171,20 @@ export default function App() {
             </div>
           ))}
           {loading && (
-            <div className="flex items-center gap-2 ml-2">
+            <div className="flex items-center gap-2 ml-2 pb-4">
               <div className="w-2 h-2 bg-white/40 rounded-full animate-bounce" />
               <div className="w-2 h-2 bg-white/40 rounded-full animate-bounce [animation-delay:0.2s]" />
               <div className="w-2 h-2 bg-white/40 rounded-full animate-bounce [animation-delay:0.4s]" />
             </div>
           )}
+          <div ref={messagesEndRef} />
         </div>
 
-        <div className="fixed bottom-10 left-1/2 -translate-x-1/2 w-full max-w-xl px-4">
+        {/* Input area Container: pt-0 and pb-8 to maintain the close spacing shown in your image */}
+        <div className="shrink-0 w-full pt-1 pb-8">
           <div className="flex items-center bg-white/20 backdrop-blur-3xl p-2 rounded-full border border-white/10 shadow-2xl">
             <input
+              ref={inputRef}
               type="text"
               value={input}
               onChange={(e) => setInput(e.target.value)}
