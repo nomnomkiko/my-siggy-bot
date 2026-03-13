@@ -127,7 +127,7 @@ export default function App() {
         <header className="flex justify-between items-center py-6 h-20 shrink-0">
           <div className="flex items-center gap-3">
             <div className="w-3 h-3 bg-green-400 rounded-full online-dot" />
-            <div className="spartan text-1xl tracking-tighter italic opacity-80 uppercase">Siggy (online)</div>
+            <div className="spartan text-1xl tracking-tighter italic opacity-80 uppercase">Siggy</div>
           </div>
           <button onClick={() => setIsSidebarOpen(true)} className="p-2 hover:scale-110 transition-transform">
             <ChevronLeft size={32} />
@@ -180,7 +180,7 @@ export default function App() {
           <div ref={messagesEndRef} />
         </div>
 
-        {/* Input area Container: pt-0 and pb-8 to maintain the close spacing shown in your image */}
+        {/* Input area Container */}
         <div className="shrink-0 w-full pt-1 pb-8">
           <div className="flex items-center bg-white/20 backdrop-blur-3xl p-2 rounded-full border border-white/10 shadow-2xl">
             <input
@@ -206,7 +206,7 @@ export default function App() {
               <ChevronRight size={32} className="text-black/50" />
             </button>
             <h1 className="spartan text-5xl mb-1 tracking-tighter text-black/70">MY SIGGY</h1>
-            <p className="poppins text-xs tracking-widest text-black/40 uppercase mb-8">Mystical Guardian of Ritual</p>
+            <p className="poppins text-xs tracking-widest text-black/40 uppercase mb-8">The Guardian of Ritual</p>
             
             <button 
               onClick={() => { 
