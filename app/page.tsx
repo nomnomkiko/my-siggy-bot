@@ -105,6 +105,15 @@ export default function App() {
         .spartan { font-family: 'League Spartan', sans-serif; }
         .poppins { font-family: 'Poppins', sans-serif; }
         .no-scrollbar::-webkit-scrollbar { display: none; }
+
+        @font-face {
+          font-family: 'ITC Motter Corpus';
+          src: url('/fonts/MotterCorpus.ttf') format('truetype');
+        }
+        @font-face {
+          font-family: 'Glacial Indifference';
+          src: url('/fonts/GlacialIndifference.ttf') format('truetype');
+        }
         
         @keyframes blink {
           0% { opacity: 1; transform: scale(1); }
@@ -127,7 +136,7 @@ export default function App() {
         <header className="flex justify-between items-center py-6 h-20 shrink-0">
           <div className="flex items-center gap-3">
             <div className="w-3 h-3 bg-green-400 rounded-full online-dot" />
-            <div className="spartan text-1xl tracking-tighter italic opacity-80 uppercase">Siggy</div>
+            <div className="spartan text-2xl tracking-tighter italic opacity-80 uppercase">Siggy</div>
           </div>
           <button onClick={() => setIsSidebarOpen(true)} className="p-2 hover:scale-110 transition-transform">
             <ChevronLeft size={32} />
@@ -233,7 +242,7 @@ export default function App() {
                 <img src="/ritual-logo.png" alt="Website" className="w-14 h-14 object-contain" />
               </a>
             </div>
-            <p className="poppins text-[10px] text-black/30 mt-8 tracking-widest uppercase">Created with love by @nomnomkiko</p>
+            <p className="poppins text-[10px] text-black/30 mt-8 tracking-widest uppercase">Created by kai - @nomnomkiko</p>
           </div>
         </div>
       )}
