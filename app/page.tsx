@@ -123,7 +123,7 @@ export default function App() {
               <ChevronRight size={32} className="text-black/50" />
             </div>
             
-            <h1 className="spartan text-5xl text-black/70 mb-2 mt-4">Siggy chat bot</h1>
+            <h1 className="spartan text-5xl text-black/70 mb-2 mt-4">My Siggy</h1>
             <p className="poppins text-sm text-black/50 mb-12">Created by Kai - @nomnomkiko</p>
             
             <button 
