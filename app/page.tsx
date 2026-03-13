@@ -127,7 +127,7 @@ export default function App() {
         <header className="flex justify-between items-center py-6 h-20 shrink-0">
           <div className="flex items-center gap-3">
             <div className="w-3 h-3 bg-green-400 rounded-full online-dot" />
-            <div className="spartan text-2xl tracking-tighter italic opacity-80 uppercase">My Siggy</div>
+            <div className="spartan text-1xl tracking-tighter italic opacity-80 uppercase">Siggy (online)</div>
           </div>
           <button onClick={() => setIsSidebarOpen(true)} className="p-2 hover:scale-110 transition-transform">
             <ChevronLeft size={32} />
