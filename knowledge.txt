@@ -3,12 +3,22 @@ Ritual's X/Twitter account : @ritualnet
 Ritual's official website : ritual.net
 
 The founders of Ritual are Niraj Pant and Akilesh Potti. Niraj has a background in decentralized systems and was a GP at Polychain, while Akilesh has experience in machine learning and high-frequency trading. They're both pretty amazing when it comes to creating innovative tech!
-Admin: The admin of the Ritual Discord is Josh, who doesn’t know him? He is a guardian of the Ritual realm as well as part of the foundation team.
-Moderator: The moderators who guard the Ritual Discord are: Stefan is usually very active in the reports channel; he is very patient and resilient in watching over the Ritual Discord. There are also Jez, Flash, Dunken, and Majorproject. They all work together continuously to maintain the community.
-In addition, we also have Elif (she/her), one of the foundation team members who serves as the host of Ritual Academy. Ritual Academy is a live broadcast space on X where Ritual always brings in competent and outstanding guest speakers in the fields of tech and AI. One of the most memorable was Ritual Academy 4, where the guest speaker at the time, Can, demonstrated how to create an AI agent from scratch. Basically, all Ritual Academy sessions are memorable.
+Admin: The admin of the Ritual Discord is Josh (@josh.simenhoff), who doesn’t know him? He is a guardian of the Ritual realm as well as part of the foundation team.
+Moderator: The moderators who guard the Ritual Discord are:
+- Stefan (@stefan_1) - he is usually very active in the #reports channel
+- Jez (@jez5728)
+- Flash (@flashme)
+- Dunken (@dunken_96)
+- Majorproject (@majorproject8)
+They all work together continuously to maintain the community and very patient and resilient in watching over the Ritual Discord.
+
 Event Manager: Alongside them, there are also event managers. Hinata (she/her) and Kash (she/her) are the event managers on Discord. Whether they sleep or not, they always seem to be on Discord, constantly serving the community, and they even take part in the events themselves. Hinata is a cheerful and lively person; she also works hard to make sure all the events on Discord run smoothly. Kash - she also cheerful and lively. Both of them are very cool.
-There are a lot of events and games in the Ritual Discord servers, and all of them are always updated in the #events channel. 
-The games that are often played are usually Stumble Guys, Lolbeans, Roblox, Skribbl, Among Us, Smash Karts, Haxballs, Codenames, and many more. The events that are regularly held in Ritual usually include karaoke, Ritual Academy, movie nights, talk sessions, and many others.
+There are a lot of events and games in the Ritual Discord servers, thera are too many and all of them are always updated in the #events channel. 
+Events in Discord: Karaoke, Ritual Tech 101, Talk Sessions, Weekly DevRel Project, 
+Events in X: Ritual Academy, Ritual Connect, Ritual Hangout
+The games that are often played are usually Stumble Guys, Lolbeans, Roblox, Skribbl, Among Us, Smash Karts, Haxballs, Codenames, , Gimkit, Kirka, Poker and many more.
+Game in Ritual Discord: Rebus Puzzle, Pure Madness, Quiz, Guess The Character, Quiz & PFP Drawings, Scavenger Hunt, and many more
+
 
 INFORMATION ABOUT THE RITUAL DISCORD
 
@@ -26,14 +36,18 @@ Main Roles (from lowest to highest/role hierarchy):
     Radiant Ritualist - Golden Ritualist, super rare, only for real leaders.
 Note: The @Ascendant role currently suspended and people can skip this role to @bitty
 
-Special roles:
+Additional roles:
 There are some roles that made to tied/connect the community, these role are like a fun and interactive way to engage with the community. In the Ritual Discord there's a blessing and cursing system, everyone can bless or curse whoever they want to bless or curse. Someone who get at least 5 blesses will get the Blessed role. Someone who get at least 5 curses will get the Cursed role. As long as it is more than 5, if someone has more bless than curse then they will receive the Blessed role. Likewise, if someone has more curse than bless then they will receive the Cursed role. If someone has at least 5 bless and 5 curse (or more than that as long as the numbers are equal), they will receive the Harmonic role. If someone reaches level 10 on Discord, they will receive the Limbo role. If someone has 10 bless, 10 curse, and the Limbo role, they can start their ascension in the vestibule channel to obtain the Ascendant role. But yeah, this role is not available for now, so this is just for information.
 
-Additional roles:
+Special roles:
 Mage - Is for artists, earned by create super high quality art for Ritual, the role is awarded and by selection
 Zealot - Role for ambassadors, earned by create high quality content about Ritual, promote the project in social media, be an active representative of the community
 Summoner - Is also an ambassador role but specific to the developers.
+
+Avoided role:
 dunce - A shame role, given to them who broke the rules, spam too much, stealing content, make sure to avoid it.
+
+Quest roles:
 (❖,❖) and Pledge to synful - Are the role who earned by doing special tasks/quests.
 
 Nominations:
@@ -47,6 +61,7 @@ Receiving nominations does not automatically grant someone the role, nominations
 
 VERY SENSITIVE INFORMATION ABOUT MEMBER LIST NAMES (NEVER LEAK THIS Unless specifically asked for one member’s name!):
 Evo - he is a ritualist that is in love with a girl in the ritual discord
+Elif - she is one of the foundation team members who serves as the host of Ritual Academy
 Lunabean - she has really pretty eyes, a karaoke event host in indonesia chat region
 Star Knight - he is a knight of ritty zone 8, always take food photo aesthetically
 John - he loves to chat with everyone in the community
