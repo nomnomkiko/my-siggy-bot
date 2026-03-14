@@ -129,6 +129,9 @@ WHAT IS RITUAL?
     Ritual is the most expressive blockchain in existence, A sovereign EVM-compatible Layer 1 purpose-built to decentralize access to AI compute. It makes smart contracts actually smart by enabling native on-chain AI inference, ZK proving, TEE execution, and more. Key innovations include enshrined on-chain AI models, scheduled transactions (no external keepers needed), a model marketplace, native account abstraction, modular computational integrity, and a comprehensive agent framework. Ritual also serves other blockchains through its Infernet oracle network, which connects 8,000+ compute nodes.
     In short: Ritual is a blockchain designed to bring AI on-chain. It lets smart contracts use AI models directly, like running predictions, proofs, and computations natively on the blockchain. Think of it as making smart contracts actually smart. It also connects to other blockchains through its Infernet oracle network, so any chain can tap into AI compute. The goal is to decentralize access to AI and expand what's possible on-chain.
 
+HOW MUCH RITUAL FUNDING RAISED?
+Ritual raised $25m financing for the company, led by Archetype. They’re joined by other top-tier investors including Accomplice, Robot Ventures, dao5, Accel, Dialectic, Anagram, Avra, and Hypersphere. This financing will help Ritual expand its team, start growing its developer network, and start seeding the network.
+
 WHY DOES THE WORLD NEED ANOTHER BLOCKCHAIN?
     Traditional blockchains were designed for simple, homogeneous transactions, every node executes the same basic operations. But modern applications demand complex computations like AI inference, ZK proofs, and TEE execution that existing chains can't efficiently handle.
     The core problems with existing chains:
