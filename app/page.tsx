@@ -3,7 +3,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { ChevronLeft, ChevronRight, Send } from 'lucide-react';
 
-// Fast and responsive typewriter component
+// Typewriter component
 const Typewriter = ({ text, speed = 10, onComplete, onUpdate }: { text: string, speed?: number, onComplete?: () => void, onUpdate?: () => void }) => {
   const [displayedText, setDisplayedText] = useState('');
   
@@ -57,7 +57,7 @@ export default function App() {
     ]);
   }, []);
 
-  // Trigger scroll whenever messages change or loading state changes
+  // Trigger scroll
   useEffect(() => {
     scrollToBottom();
   }, [messages, loading]);
@@ -143,7 +143,7 @@ export default function App() {
           </button>
         </header>
 
-        {/* Adjusted padding to be tighter (pb-2) to bring messages closer to the input box */}
+        {/* Adjusted padding */}
         <div className="flex-1 overflow-y-auto space-y-8 no-scrollbar pt-4 pb-0 scroll-smooth">
           {messages.map((msg, idx) => (
             <div key={idx} className={`flex flex-col ${msg.role === 'user' ? 'items-end' : 'items-start'}`}>

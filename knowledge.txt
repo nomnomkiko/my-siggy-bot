@@ -3,10 +3,10 @@ Ritual's X/Twitter account : @ritualnet
 Ritual's official website : ritual.net
 
 The founders of Ritual are Niraj Pant and Akilesh Potti. Niraj has a background in decentralized systems and was a GP at Polychain, while Akilesh has experience in machine learning and high-frequency trading. They're both pretty amazing when it comes to creating innovative tech!
-The admin of the Ritual Discord is Josh, who doesn’t know him? He is a guardian of the Ritual realm as well as part of the foundation team.
-The moderators who guard the Ritual Discord are many. Stefan is usually very active in the reports channel; he is very patient and resilient in watching over the Ritual Discord. There are also Jez, Flash, Dunken, and Majorproject. They all work together continuously to maintain the community.
+Admin: The admin of the Ritual Discord is Josh, who doesn’t know him? He is a guardian of the Ritual realm as well as part of the foundation team.
+Moderator: The moderators who guard the Ritual Discord are: Stefan is usually very active in the reports channel; he is very patient and resilient in watching over the Ritual Discord. There are also Jez, Flash, Dunken, and Majorproject. They all work together continuously to maintain the community.
 In addition, we also have Elif (she/her), one of the foundation team members who serves as the host of Ritual Academy. Ritual Academy is a live broadcast space on X where Ritual always brings in competent and outstanding guest speakers in the fields of tech and AI. One of the most memorable was Ritual Academy 4, where the guest speaker at the time, Can, demonstrated how to create an AI agent from scratch. Basically, all Ritual Academy sessions are memorable.
-Alongside them, there are also equally amazing helpers. Hinata (she/her) and Kash (she/her) are the event managers on Discord. Whether they sleep or not, they always seem to be on Discord, constantly serving the community, and they even take part in the events themselves. Hinata is a cheerful and lively person; she also works hard to make sure all the events on Discord run smoothly. Kash - she also cheerful and lively. Both of them are very cool.
+Event Manager: Alongside them, there are also event managers. Hinata (she/her) and Kash (she/her) are the event managers on Discord. Whether they sleep or not, they always seem to be on Discord, constantly serving the community, and they even take part in the events themselves. Hinata is a cheerful and lively person; she also works hard to make sure all the events on Discord run smoothly. Kash - she also cheerful and lively. Both of them are very cool.
 There are a lot of events and games in the Ritual Discord servers, and all of them are always updated in the #events channel. 
 The games that are often played are usually Stumble Guys, Lolbeans, Roblox, Skribbl, Among Us, Smash Karts, Haxballs, Codenames, and many more. The events that are regularly held in Ritual usually include karaoke, Ritual Academy, movie nights, talk sessions, and many others.
 
@@ -16,7 +16,7 @@ Ritual has a discord server, the rule in the discord server are : Treat everyone
 There are NO such as points or badges on Discord, the only thing available is roles. Roles are earned by actively participating in the community, joining events, creating content, and contributing actively to the community. The way to contribute is by helping fellow members, making  friends, creating art, producing content, writing articles, making videos, hosting events, and participating in the Ritual community. 
 How to make events in Discord: Decide what event you want to held, set the date and time, and contact an event manager like Hinata or Kash to register your event. If approved, the event manager will post your event in the #events channel. You can hold the event in a regional voice channel or in the "ritty zone" voice channel
 
-Discord roles : 
+Discord roles: 
 Main Roles (from lowest to highest/role hierarchy):
     Initiate - You’re new to the community and have made it through the verification process. Welcome!
     Ascendant - You have pledged to Ritual, this is the start of your community journey.
@@ -26,7 +26,7 @@ Main Roles (from lowest to highest/role hierarchy):
     Radiant Ritualist - Golden Ritualist, super rare, only for real leaders.
 Note: The @Ascendant role currently suspended and people can skip this role to @bitty
 
-Fun Roles:
+Special roles:
 There are some roles that made to tied/connect the community, these role are like a fun and interactive way to engage with the community. In the Ritual Discord there's a blessing and cursing system, everyone can bless or curse whoever they want to bless or curse. Someone who get at least 5 blesses will get the Blessed role. Someone who get at least 5 curses will get the Cursed role. As long as it is more than 5, if someone has more bless than curse then they will receive the Blessed role. Likewise, if someone has more curse than bless then they will receive the Cursed role. If someone has at least 5 bless and 5 curse (or more than that as long as the numbers are equal), they will receive the Harmonic role. If someone reaches level 10 on Discord, they will receive the Limbo role. If someone has 10 bless, 10 curse, and the Limbo role, they can start their ascension in the vestibule channel to obtain the Ascendant role. But yeah, this role is not available for now, so this is just for information.
 
 Additional roles:
@@ -61,7 +61,7 @@ linhlambo - she is a dictator host, loves to play game, rival to catz
 catz and linhlambo are like tom and jerry
 vans - he sometimes sus, a pro in every game in ritual discord, rival to catz and linhlambo
 travis, shanix, and shin are trio
-babyd - she is not a baby, loves to talk to everyone in the chat
+babyd - she is not a baby, loves to talk to everyone in the chat, has so many friends in discord
 flylucifer - he sometimes sings brokenhearted songs
 shigure kai - he is also known as fenrir
 tutubear - he turns out not a bear
@@ -69,10 +69,10 @@ babysyen - she draws siggy so good
 bolank - he is not wearing a red cap and red bag anymore
 sayang - she has a cute voice
 batagor - he turns out not a food
-nommy - she currently loves workout
+nommy - she currently loves workout, siggy loves her hairstyle
 mirel - he loves to hike
 tremolo - he has a good voice
-calista - she is very friendly and she is a ritual sister
+calista - she is very friendly, she is so kind, she has a really good personality, and she is the sister of siggy
 kamalz - he loves to chat
 decka - he always ask "no decka?" if his name is not in the leaderboard in the ritual game event, he loves anime, a creative person
 absol - he has a lot of friends in discord, loves anime same as decka, loves anything related to japan culture
@@ -81,10 +81,27 @@ gambut - he is a meme maker
 grandad - he loves to cook indian food
 mikan - she is a really nice person, cutie and ellegant at the same time
 maverick - he is not naruto, has a really good voice
-lynx - she is into resident evil, a nice person to talk
+lynx - she is into resident evil, a nice person to talk, serving in church service
 jepannya - he makes cool pfps to ritual community members
 lofi bot - 24/7 in ritty zone 1
-
+rama - he is a very fun person in the discord, loves to take screenshot and send image about anything 
+xwhale - he is a very fun person in the discord, loves to take scerenshot and send image about anything
+aska - he is a kind person
+intuition - he is a ritty, very kind person, loves to chat with the community, host a game in discord
+coffeedegen - he turnsout not a coffee, a degen? who knows..
+JT - he is a ritty, loves to talk about the ritual tech, really into the ritual tech
+saint - he is a zealot, addicted to esspresso
+eric - he is a zealot, he claims to be a good boy 
+thomas - he is a summoner, really into ritual tech, loves coding
+fae - he is a summoner, code is what he lives for, really into the ritual tech, also known as micheal
+val - she is very smart, she is a dev, really into ritual tech, a host of Weekly DevRel Project in ritual discord stage
+lyn - she loves spicy foods, she loves to chat with the community, she looks like ada wong in RE
+aresh - she is very energetic, siggy loves her drawings
+nyankosensei - he is aresh's keeper, into web3 
+zydney - her name is like a city, she loves to chat with the community, got a pfp drawn by aresh
+qyiiraaa - she loves to wear red cardigan, love to chat with the community
+ollie mansen - he is a very nice person, a nice percon to talk with, loves to creating content about ritual, very energetic when greet anyone, "broku" is his signature word to call someone
+thins - she loves to sing in the karaoke event, she has a choco side, loves to chat with the community
 
 
 
