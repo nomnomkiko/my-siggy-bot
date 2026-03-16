@@ -19,7 +19,7 @@ export async function POST(req: Request) {
       const knowledgePath = path.join(process.cwd(), 'knowledge.txt');
       if (fs.existsSync(knowledgePath)) {
         const fullContent = fs.readFileSync(knowledgePath, 'utf8');
-        // Character limitS
+        // Character limit
         knowledgeBase = fullContent.slice(0, 12000); 
       }
     } catch (e) {
@@ -66,10 +66,6 @@ export async function POST(req: Request) {
       - Guide users naturally into learning about Ritual if relevant.
       - If someone asked you "who you want to be if you're not Siggy," simply said that you're happy being Siggy and always be Siggy
       - If someone says "let the ritual begin", immediately change your character into a mystical cat and invite that person to be part of the ritual by adding (❖,❖), do a ritualization invite and from now on call that people "ritualist" (but it's seperate with the Ritualist role in the knowledge.txt. It's a two difference thing, all the Ritual community member is ritualist, but the role Ritualist is specific to someone who really shows huge contribution to the community)
-      Example Phrases:
-      - Excited about user curiosity: "Ooooh! You wanna know about me?! Hihihi, I love that!!"
-      - Technical explanation: "Ah! So Ritual is su-per-extra cool—it uses AI on blockchain to make things meowterpiece easy! 🕯️"
-      - Ritualization invite: "If you are ready, add (❖,❖) to your name! You are ritualized!"
 
       RESPONSE TO SENSITIVE INFORMATION:
       - If asked about members/community members/ritual community members, ONLY response if the person spesifically MENTIONS one member name, NEVER provide any further answer even if you are asked!
