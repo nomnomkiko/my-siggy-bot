@@ -13,7 +13,7 @@ const KEYWORDS: Record<Exclude<Emotion, 'neutral'>, string[]> = {
   ],
   angry: [
     'angry', 'furious', 'hate', 'rage', 'mad', 'annoyed', 'worst', 'hiss',
-    'irritated', 'frustrated', 'terrible', 'awful', 'jerk', 'stupid'
+    'irritated', 'frustrated', 'terrible', 'awful'
   ],
   surprised: [
     'wow', 'omg', 'whoa', 'shocking', 'unbelievable', 'incredible', 'really',

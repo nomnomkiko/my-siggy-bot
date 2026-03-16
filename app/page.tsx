@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useState, useEffect, useRef } from 'react';
-import { ChevronLeft, ChevronRight, Send } from 'lucide-react';
+import { ChevronLeft, ChevronRight, Send, Heart, CloudRain, Flame, Zap, Smile } from 'lucide-react';
 
 const Typewriter = ({ text = "", speed = 10, onComplete, onUpdate }: { text: string, speed?: number, onComplete?: () => void, onUpdate?: () => void }) => {
   const [displayedText, setDisplayedText] = useState('');
@@ -29,6 +29,15 @@ const Typewriter = ({ text = "", speed = 10, onComplete, onUpdate }: { text: str
   return <div className="whitespace-pre-wrap">{displayedText}</div>;
 };
 
+// Emotion Config for UI
+const EMOTION_MAP: Record<string, { label: string; color: string; icon: any }> = {
+  happy: { label: "Feeling: Happy", color: "text-green-400", icon: Smile },
+  sad: { label: "Feeling: Blue", color: "text-blue-400", icon: CloudRain },
+  angry: { label: "Feeling: Spicy", color: "text-red-400", icon: Flame },
+  surprised: { label: "Feeling: Shocked", color: "text-yellow-400", icon: Zap },
+  neutral: { label: "Feeling: Chill", color: "text-white/60", icon: Heart },
+};
+
 export default function App() {
   const [messages, setMessages] = useState<{ role: 'user' | 'siggy'; text: string; time: string; isTyping?: boolean }[]>([
     { 
@@ -41,10 +50,10 @@ export default function App() {
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
   const [loading, setLoading] = useState(false);
   const [isMounted, setIsMounted] = useState(false);
+  const [currentEmotion, setCurrentEmotion] = useState('neutral');
   
   const messagesEndRef = useRef<HTMLDivElement>(null);
   const inputRef = useRef<HTMLInputElement>(null);
-
 
   const scrollToBottom = () => {
     if (messagesEndRef.current) {
@@ -58,7 +67,6 @@ export default function App() {
       { ...prev[0], time: new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' }) }
     ]);
   }, []);
-
 
   useEffect(() => {
     scrollToBottom();
@@ -87,6 +95,9 @@ export default function App() {
       const data = await res.json();
       const siggyTime = new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' });
       
+      // Update Emotion if provided by API
+      if (data.emotion) setCurrentEmotion(data.emotion);
+      
       const replyText = data.reply || data.error || "Meow? I lost my voice! Try again?";
       
       setMessages(prev => [...prev, { 
@@ -106,6 +117,8 @@ export default function App() {
     }
   };
 
+  const EmotionIcon = EMOTION_MAP[currentEmotion]?.icon || Heart;
+
   if (!isMounted) return <div className="bg-black h-screen w-screen" />;
 
   return (
@@ -113,9 +126,6 @@ export default function App() {
       <style>{`
         @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&family=League+Spartan:wght@700&display=swap');
         
-        @font-face { font-family: 'Motter Carpus'; src: url('/fonts/MotterCarpus.ttf') format('truetype'); }
-        @font-face { font-family: 'Glacial Indifference'; src: url('/fonts/GlacialIndifference.otf') format('opentype'); }
-
         .glacial { font-family: 'Glacial Indifference', sans-serif; }
         .motter { font-family: 'Motter Carpus', sans-serif; }
         .spartan { font-family: 'League Spartan', sans-serif; }
@@ -128,8 +138,13 @@ export default function App() {
           50% { opacity: 0.5; transform: scale(1.1); }
         }
         .online-dot { animation: blink 2s infinite ease-in-out; box-shadow: 0 0 8px #4ade80; }
+        
+        @keyframes float {
+          0%, 100% { transform: translateY(0px); }
+          50% { transform: translateY(-3px); }
+        }
+        .emotion-badge { animation: float 3s infinite ease-in-out; }
 
-        /* Liquid Glass Design (Applied to Sidebar and Input) */
         .liquid-glass {
           background: rgba(255, 255, 255, 0.08);
           backdrop-filter: blur(40px) saturate(180%);
@@ -148,10 +163,16 @@ export default function App() {
 
       <div className={`relative z-10 flex flex-col h-full w-full max-w-2xl mx-auto px-4 transition-all duration-500 ${isSidebarOpen ? 'blur-[20px] opacity-0 pointer-events-none' : 'opacity-100'}`}>
         
-        <header className="flex justify-between items-center py-6 h-20 shrink-0">
+        <header className="flex justify-between items-center py-6 h-24 shrink-0">
           <div className="flex items-center gap-3">
             <div className="w-3 h-3 bg-green-400 rounded-full online-dot" />
-            <div className="spartan text-2xl tracking-tighter italic opacity-80 uppercase">Siggy</div>
+            <div className="flex flex-col">
+              <div className="spartan text-2xl tracking-tighter italic opacity-80 uppercase leading-none">Siggy</div>
+              <div className={`emotion-badge flex items-center gap-1 mt-1 poppins text-[10px] uppercase tracking-[0.2em] font-bold ${EMOTION_MAP[currentEmotion].color}`}>
+                <EmotionIcon size={10} />
+                {EMOTION_MAP[currentEmotion].label}
+              </div>
+            </div>
           </div>
           <button onClick={() => setIsSidebarOpen(true)} className="p-2 hover:scale-110 transition-transform">
             <ChevronLeft size={32} />
@@ -178,7 +199,6 @@ export default function App() {
                         const newMsgs = [...messages];
                         newMsgs[idx].isTyping = false;
                         setMessages(newMsgs);
-
                       }} 
                     />
                   ) : (
@@ -203,7 +223,6 @@ export default function App() {
           <div ref={messagesEndRef} />
         </div>
 
-        {/* Input Box Form Style */}
         <div className="shrink-0 w-full pt-2 pb-8">
           <div className="liquid-glass flex items-center p-2 rounded-full shadow-2xl">
             <input
@@ -234,6 +253,7 @@ export default function App() {
             <button 
               onClick={() => { 
                 setMessages([{ role: 'siggy', text: "Memory cleared! Mwhii!", time: new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' }) }]); 
+                setCurrentEmotion('neutral');
                 setIsSidebarOpen(false); 
               }}
               className="w-full py-5 bg-red-500/20 text-red-100 font-bold rounded-2xl hover:bg-red-500/30 transition-all glacial text-xl mb-10 border border-red-500/30 shadow-lg"
