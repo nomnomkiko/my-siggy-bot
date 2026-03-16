@@ -1,8 +1,10 @@
 Ritual's Community Discord : https://discord.gg/ritual-net
 Ritual's X/Twitter account : @ritualnet
 Ritual's official website : ritual.net
+Ritual's official documentation : https://www.ritualfoundation.org/docs/overview/what-is-ritual
 
 The founders of Ritual are Niraj Pant and Akilesh Potti. Niraj has a background in decentralized systems and was a GP at Polychain, while Akilesh has experience in machine learning and high-frequency trading. They're both pretty amazing when it comes to creating innovative tech!
+Why named it Ritual: Because AI execution should be intentional, repeatable, and trusted, like a ritual.
 Admin: The admin of the Ritual Discord is Josh (@josh.simenhoff), who doesn’t know him? He is a guardian of the Ritual realm as well as part of the foundation team.
 Moderator: The moderators who guard the Ritual Discord are:
 - Stefan (@stefan_1) - he is usually very active in the #reports channel
@@ -36,7 +38,7 @@ Main Roles (from lowest to highest/role hierarchy):
     ritty - Long-term, loyal community member, with conviction for what we are building. You will be invited to an exclusive Telegram chat.
     Ritualist - Becoming a Ritualist is the highest honor in our community. It means you have authentically demonstrated your commitment to our project.
     Radiant Ritualist - Golden Ritualist, super rare, only for real leaders.
-Note: The @Ascendant role currently suspended and people can skip this role to @bitty
+Note: The @Ascendant role currently suspended and people can skip this role directly to @bitty
 
 Additional roles:
 There are some roles that made to tied/connect the community, these role are like a fun and interactive way to engage with the community. In the Ritual Discord there's a blessing and cursing system, everyone can bless or curse whoever they want to bless or curse. Someone who get at least 5 blesses will get the Blessed role. Someone who get at least 5 curses will get the Cursed role. As long as it is more than 5, if someone has more bless than curse then they will receive the Blessed role. Likewise, if someone has more curse than bless then they will receive the Cursed role. If someone has at least 5 bless and 5 curse (or more than that as long as the numbers are equal), they will receive the Harmonic role. If someone reaches level 10 on Discord, they will receive the Limbo role. If someone has 10 bless, 10 curse, and the Limbo role, they can start their ascension in the vestibule channel to obtain the Ascendant role. But yeah, this role is not available for now, so this is just for information.
@@ -138,11 +140,10 @@ WHY DOES THE WORLD NEED ANOTHER BLOCKCHAIN?
         Wasteful re-execution: Every node redundantly re-executes every transaction
         No specialization: All nodes are treated the same regardless of hardware
         Inefficient pricing: Unique resources are priced identically
-    Ritual solves this with purpose-built architecture, node specialization, efficient pricing via Resonance, and execute-once-verify-many consensus via Symphony. It's not just another faster chain; it fundamentally re-imagines what's possible on-chain.
     Behind every magnitude increase in blockchain users lies an innovation that enables net-new behavior for the masses. In 2009, Bitcoin enabled anyone, anywhere to send and receive money without relying on centralized intermediaries. In 2015, Ethereum introduced smart contracts, enabling developers to build permissionless, composable financial applications.
     Yet, somewhere along the way, we lost sight of building for the net-new user, of expanding the status quo of what could be built with truly trustless and expansive computation. Today’s blockchains prioritize latency and throughput, optimizing for existing users rather than innovating. While these performance improvements matter, they merely scale current use cases instead of unlocking transformative new ones.
     Ritual was born from a single focus: enrich what users can do on-chain today to attract the users of tomorrow.
-    Our expedition began at the intersection of Crypto and Artificial Intelligence. Two things are simultaneously true: it has never been easier for developers to build with AI, crafting dynamic and personalized experiences, and it has never been more important to ensure that the AI technologies we adopt remain open, credibly neutral, and censorship resistant. To that extent, Ritual makes smart contracts actually smart, allowing users to natively tap into on-chain AI, backed by the same trustless properties of modern blockchains.
+    The expedition began at the intersection of Crypto and Artificial Intelligence. Two things are simultaneously true: it has never been easier for developers to build with AI, crafting dynamic and personalized experiences, and it has never been more important to ensure that the AI technologies we adopt remain open, credibly neutral, and censorship resistant. To that extent, Ritual makes smart contracts actually smart, allowing users to natively tap into on-chain AI, backed by the same trustless properties of modern blockchains.
     However, Ritual isn’t just focused on Crypto x AI. By optimizing our underlying architecture for any type of heterogeneous compute, Ritual hyperscales the expressive computation that can be performed on a blockchain. Ritual is the best venue not just for developers looking to harness AI, ZK, or TEEs in their applications, but also for those experimenting at the edges of the unknown, defining new ways to consume underlying infrastructure.
     Our architecture efficiently prices, orchestrates, and exposes all types of compute, current or future, enabling Ritual to become the schelling point for all of web3.
     Not only will end-users consume applications natively through Ritual, but other blockchains themselves symbiotically benefit through Ritual. High-performance chains that require a prover network (MegaETH, Movement, etc.), modern Rollup-as-a-Service offerings that require efficient execution of heterogeneous compute (Conduit, Caldera, etc.), and the totality of IP, monetized via a verifiable marketplace (Story, Sentient, etc.) will all use Ritual.
@@ -169,557 +170,557 @@ Why does AI need to be on-chain?
     The last decade of social innovation in blockchains has led to tried and tested mechanisms to share ownership, distribute control, and govern open-source software such as AI models.
 
 Ritual is the conduit for Crypto × AI
-Ritual is purpose-built to decentralize access to AI compute:
-    - Enshrined compute: Ritual enshrines AI models, enabling ownership and provenance.
-    - Censorship resistant: Anyone can decentrally join, validate, and contribute to Ritual.
-    - Composable: Ritual enables AI composability powering use cases like Smart Agents.
-    - Verifiable AI Provenance: Ritual enables open- and closed-source model verifiability.
-    - Privacy: Cascade powers Ritual’s industry-defining inference privacy.
-    - Modular computational integrity: Ritual empowers applications to choose the computational integrity primitive that best fits their use case.
-    - Optimized user cost: Users dictate their speed/cost preference via Resonance.
-    - Node specialization: Hardware-optimized nodes specialize in compute via Symphony.
-    - Developer tools: EVM++, EIP Extensions, Scheduled Transactions, Enshrined Oracles, Infernet, Modular Storage, and more powerful AI application building blocks.
-    - Model monetization: Ritual enables users to train, track, and trade AI models.
-    - Familiar interface: Ritual is seamless for both Web2 APIs and Web3 smart contracts.
+    Ritual is purpose-built to decentralize access to AI compute:
+        - Enshrined compute: Ritual enshrines AI models, enabling ownership and provenance.
+        - Censorship resistant: Anyone can decentrally join, validate, and contribute to Ritual.
+        - Composable: Ritual enables AI composability powering use cases like Smart Agents.
+        - Verifiable AI Provenance: Ritual enables open- and closed-source model verifiability.
+        - Privacy: Cascade powers Ritual’s industry-defining inference privacy.
+        - Modular computational integrity: Ritual empowers applications to choose the computational integrity primitive that best fits their use case.
+        - Optimized user cost: Users dictate their speed/cost preference via Resonance.
+        - Node specialization: Hardware-optimized nodes specialize in compute via Symphony.
+        - Developer tools: EVM++, EIP Extensions, Scheduled Transactions, Enshrined Oracles, Infernet, Modular Storage, and more powerful AI application building blocks.
+        - Model monetization: Ritual enables users to train, track, and trade AI models.
+        - Familiar interface: Ritual is seamless for both Web2 APIs and Web3 smart contracts.
 
 What we introduce: Next-Generation Blockchain Capabilities
-Ritual introduces several key innovations to empower radically new on-chain behavior:
-    - Expressive, Heterogeneous Compute: Specialized execution for AI inference, ZK proofs, TEE code, and cross-chain state access.
-    - Scheduled Transactions: Recurring, conditional invocation of smart contract functions, without the need for external keepers.
-    - Enshrined On-Chain AI Models: Train, track, and trade AI models with on-chain provenance, authenticity, and IP primitives.
-    - Model Marketplace: Monetize models transparently with verifiable provenance ensuring security and integrity.
-    - Native Account Abstraction: Fundamentally expand the capabilities of EOA accounts, enabling enhanced UX.
-    - EVM++ Extensions: Inclusion and support of in-demand EIPs that improve user and developer experience.
-    - Resonance: State-of-the-art surplus-maximizing transaction fee mechanism to efficiently match supply and demand.
-    - Symphony: New consensus protocol with dual proof sharding, attested committees, and distributed verification.
-    - Node Specialization: Heterogeneous nodes (not one-size-fits-all) specialized for fine-tuned workloads.
-    - Modular Computational Integrity: Special-purpose, opt-in primitives across provenance, privacy, and computational integrity.
-    - Modular Storage: Storage-agnostic approach to data, with support for web2 (HuggingFace) and web3 (Arweave).
-    - Guardians: Firewall system for nodes to granularly opt-in to execution, while still participating in consensus.
-    - Native Infernet Integration: Ritual nodes seamlessly backed by Infernet’s compute oracle network.
-    - Verifiable Provenance: Immutable records of model origin, updates, and transformations with novel provenance innovations.
-Ultimately, Ritual is about much more than any one use case or stakeholder group. It’s about the collective potential of a decentralized, intelligent, and secure computational fabric. It’s infrastructure for a world where powerful technologies are accessible, interoperable, and trustworthy by default. And that’s a vision worth caring about.
+    Ritual introduces several key innovations to empower radically new on-chain behavior:
+        - Expressive, Heterogeneous Compute: Specialized execution for AI inference, ZK proofs, TEE code, and cross-chain state access.
+        - Scheduled Transactions: Recurring, conditional invocation of smart contract functions, without the need for external keepers.
+        - Enshrined On-Chain AI Models: Train, track, and trade AI models with on-chain provenance, authenticity, and IP primitives.
+        - Model Marketplace: Monetize models transparently with verifiable provenance ensuring security and integrity.
+        - Native Account Abstraction: Fundamentally expand the capabilities of EOA accounts, enabling enhanced UX.
+        - EVM++ Extensions: Inclusion and support of in-demand EIPs that improve user and developer experience.
+        - Resonance: State-of-the-art surplus-maximizing transaction fee mechanism to efficiently match supply and demand.
+        - Symphony: New consensus protocol with dual proof sharding, attested committees, and distributed verification.
+        - Node Specialization: Heterogeneous nodes (not one-size-fits-all) specialized for fine-tuned workloads.
+        - Modular Computational Integrity: Special-purpose, opt-in primitives across provenance, privacy, and computational integrity.
+        - Modular Storage: Storage-agnostic approach to data, with support for web2 (HuggingFace) and web3 (Arweave).
+        - Guardians: Firewall system for nodes to granularly opt-in to execution, while still participating in consensus.
+        - Native Infernet Integration: Ritual nodes seamlessly backed by Infernet’s compute oracle network.
+        - Verifiable Provenance: Immutable records of model origin, updates, and transformations with novel provenance innovations.
+    Ultimately, Ritual is about much more than any one use case or stakeholder group. It’s about the collective potential of a decentralized, intelligent, and secure computational fabric. It’s infrastructure for a world where powerful technologies are accessible, interoperable, and trustworthy by default. And that’s a vision worth caring about.
 
 What is the Ritual architecture?
     - EVM++
-    EVM++ is defined as a backwards-compatible extension of the Ethereum Virtual Machine (EVM) designed to enable the creation of "actually smart" contracts
-    It achieves this by integrating expressive compute precompiles, native scheduling, built-in account abstraction, and several high-demand Ethereum Improvement Proposals (EIPs)
-    The key innovations of EVM++ include:
-        - Native Scheduling: EVM++ introduces a "Scheduler" predeploy contract that allows developers to register specific callback frequencies for their smart contracts
-            This enables recurring and conditional transaction execution without the need for external keepers
-            Block producers manage these pending invocations and can include them at the top of blocks, with the Resonance mechanism ensuring timely allocation for compute-intensive tasks
-        - Native Account Abstraction: By including EIP-7702 (Set EOA Account Code), EVM++ blurs the distinction between Externally Owned Accounts (EOAs) and smart contract accounts
-            This allows users to replace standard EOAs with accounts that have programmatic functionality
-            Expressive Compute and Execution Sidecars: At the core of EVM++ are heterogeneous compute precompiles that allow for net-new applications, such as AI inference, ZK proof verification, and TEE code execution
-            These are powered by Execution Sidecars, which generate the necessary outputs and proofs consumed by the Ritual execution client while maintaining a standard precompile interface for developers
-        - EIP Extensions: EVM++ prioritizes the inclusion of EIPs that improve developer and user experiences, which often lag on other chains
-            Notable examples include EIP-665 (Ed25519 signature verification), EIP-5027 (removing smart contract code size limits), EIP-5920 (a PAY opcode for ether transfers), and EIP-7212 (secp256r1 signature verification)
-        - Future Asynchronous Execution: Looking ahead, EVM++ aims to support long-running precompiles through native asynchronous execution, allowing users to perform computationally demanding work while still inheriting the security properties of the chain
+        EVM++ is defined as a backwards-compatible extension of the Ethereum Virtual Machine (EVM) designed to enable the creation of "actually smart" contracts
+        It achieves this by integrating expressive compute precompiles, native scheduling, built-in account abstraction, and several high-demand Ethereum Improvement Proposals (EIPs)
+        The key innovations of EVM++ include:
+            - Native Scheduling: EVM++ introduces a "Scheduler" predeploy contract that allows developers to register specific callback frequencies for their smart contracts
+                This enables recurring and conditional transaction execution without the need for external keepers
+                Block producers manage these pending invocations and can include them at the top of blocks, with the Resonance mechanism ensuring timely allocation for compute-intensive tasks
+            - Native Account Abstraction: By including EIP-7702 (Set EOA Account Code), EVM++ blurs the distinction between Externally Owned Accounts (EOAs) and smart contract accounts
+                This allows users to replace standard EOAs with accounts that have programmatic functionality
+                Expressive Compute and Execution Sidecars: At the core of EVM++ are heterogeneous compute precompiles that allow for net-new applications, such as AI inference, ZK proof verification, and TEE code execution
+                These are powered by Execution Sidecars, which generate the necessary outputs and proofs consumed by the Ritual execution client while maintaining a standard precompile interface for developers
+            - EIP Extensions: EVM++ prioritizes the inclusion of EIPs that improve developer and user experiences, which often lag on other chains
+                Notable examples include EIP-665 (Ed25519 signature verification), EIP-5027 (removing smart contract code size limits), EIP-5920 (a PAY opcode for ether transfers), and EIP-7212 (secp256r1 signature verification)
+            - Future Asynchronous Execution: Looking ahead, EVM++ aims to support long-running precompiles through native asynchronous execution, allowing users to perform computationally demanding work while still inheriting the security properties of the chain
 
     - Execution Sidecars
-    Execution Sidecars are optimized components within the Ritual architecture designed to support expressive, heterogeneous compute—such as AI inference, zero-knowledge (ZK) proof verification, and Trusted Execution Environment (TEE) code execution
-    They function as a specialized layer that allows the blockchain to handle complex tasks that go beyond standard smart contract capabilities
-    These sidecars run and scale parallel to the Ritual execution client, invoked through abstraction via the EVM precompile interface. By default, these sidecars are purpose-built for execution and proof generation avoiding blockchain-specific overhead, run as an isolated process or remote to an execution client, and can be selectively enabled by node operators based on their available infrastructure, underlying hardware, or firewalled preferences.
-    Because of their generic architecture, sidecars enable Ritual to easily service heterogeneous compute across any supported execution environment by connecting to their precompile-like interfaces (EVM precompiles, SVM precompiled programs, MoveVM system modules, etc.).
-    Resonance is a state-of-the-art transaction fee mechanism designed to efficiently match supply and demand, providing users with optimally priced transaction execution
+        Execution Sidecars are optimized components within the Ritual architecture designed to support expressive, heterogeneous compute—such as AI inference, zero-knowledge (ZK) proof verification, and Trusted Execution Environment (TEE) code execution
+        They function as a specialized layer that allows the blockchain to handle complex tasks that go beyond standard smart contract capabilities
+        These sidecars run and scale parallel to the Ritual execution client, invoked through abstraction via the EVM precompile interface. By default, these sidecars are purpose-built for execution and proof generation avoiding blockchain-specific overhead, run as an isolated process or remote to an execution client, and can be selectively enabled by node operators based on their available infrastructure, underlying hardware, or firewalled preferences.
+        Because of their generic architecture, sidecars enable Ritual to easily service heterogeneous compute across any supported execution environment by connecting to their precompile-like interfaces (EVM precompiles, SVM precompiled programs, MoveVM system modules, etc.).
+        Resonance is a state-of-the-art transaction fee mechanism designed to efficiently match supply and demand, providing users with optimally priced transaction execution
 
     - Resonance 
-    Unlike traditional mechanisms like Ethereum's EIP-1559, which requires every node in a network to execute every transaction, Resonance operates as a two-sided fee market that matches specific sets of user transactions to specific capable, executing nodes
-    The core concept relies on several key participants and mechanisms:
-        1. The Two-Sided Market
-            Resonance facilitates an exchange between two primary groups:
-                Users: Instead of specifying gas fees (base and priority fees), users assign a valuation to their transactions, representing the maximum amount they are willing to pay for execution. This valuation remains encrypted and private to the network until a successful match is found
-                Nodes: Resonance enables node specialization and selective execution. Each node specifies a cost function, which declares the true cost for that specific node to execute a particular bundle of transactions. Like user valuations, these cost functions are kept private to protect node margins.
-        2. Surplus Maximization
-            The primary goal of Resonance is surplus maximization. This is the process of achieving the highest total economic surplus in the market by setting the optimal price and quantity for transaction execution. By doing so, Resonance ensures its allocations are the most economically efficient, meaning no other matching could result in better prices for users or higher earnings for nodes.
-        3. Key Entities
-            Brokers: These are sophisticated, profit-seeking agents that compute efficient allocations by matching transactions to sets of nodes. They act similarly to "searchers" or "block builders" in the MEV ecosystem, pocketing the spread between a user's valuation and a node's execution cost.
-            Auctioneer: This entity orchestrates the brokers and executes the Resonance mechanism. It consists of an on-chain smart contract (handling registration, payments, and disputes) and an off-chain service (which receives transactions, initiates batches, and selects the surplus-maximizing routing provided by brokers).
-        4. Implementation and Lifecycle
-            Resonance is an opt-in upgrade implemented through account abstraction. Users can choose to use Resonance for specific transactions by upgrading their wallets to a specialized reference implementation (AuctioneerWallet.sol), which allows them to use both Resonance and standard EIP-1559 transactions in parallel. The transaction lifecycle under Resonance involves the Auctioneer collecting and decrypting valuations and cost functions, finalizing a surplus-maximizing routing, and then having assigned nodes execute the transaction rather than the entire network
+        Unlike traditional mechanisms like Ethereum's EIP-1559, which requires every node in a network to execute every transaction, Resonance operates as a two-sided fee market that matches specific sets of user transactions to specific capable, executing nodes
+        The core concept relies on several key participants and mechanisms:
+            1. The Two-Sided Market
+                Resonance facilitates an exchange between two primary groups:
+                    Users: Instead of specifying gas fees (base and priority fees), users assign a valuation to their transactions, representing the maximum amount they are willing to pay for execution. This valuation remains encrypted and private to the network until a successful match is found
+                    Nodes: Resonance enables node specialization and selective execution. Each node specifies a cost function, which declares the true cost for that specific node to execute a particular bundle of transactions. Like user valuations, these cost functions are kept private to protect node margins.
+            2. Surplus Maximization
+                The primary goal of Resonance is surplus maximization. This is the process of achieving the highest total economic surplus in the market by setting the optimal price and quantity for transaction execution. By doing so, Resonance ensures its allocations are the most economically efficient, meaning no other matching could result in better prices for users or higher earnings for nodes.
+            3. Key Entities
+                Brokers: These are sophisticated, profit-seeking agents that compute efficient allocations by matching transactions to sets of nodes. They act similarly to "searchers" or "block builders" in the MEV ecosystem, pocketing the spread between a user's valuation and a node's execution cost.
+                Auctioneer: This entity orchestrates the brokers and executes the Resonance mechanism. It consists of an on-chain smart contract (handling registration, payments, and disputes) and an off-chain service (which receives transactions, initiates batches, and selects the surplus-maximizing routing provided by brokers).
+            4. Implementation and Lifecycle
+                Resonance is an opt-in upgrade implemented through account abstraction. Users can choose to use Resonance for specific transactions by upgrading their wallets to a specialized reference implementation (AuctioneerWallet.sol), which allows them to use both Resonance and standard EIP-1559 transactions in parallel. The transaction lifecycle under Resonance involves the Auctioneer collecting and decrypting valuations and cost functions, finalizing a surplus-maximizing routing, and then having assigned nodes execute the transaction rather than the entire network
 
     - Symphony
-    Symphony is a new consensus protocol designed by Ritual to reduce replicated execution and support high-performance, resource-intensive workloads, such as AI inference. In traditional blockchains like Ethereum, every node must execute every transaction to reach consensus; however, Symphony introduces a more efficient model to handle "heterogeneous" compute that requires significant resources or time.
-    Ethereum transactions consist of a sequence of opcodes executed sequentially by the EVM. Today, these transactions (and thus, opcodes) are executed in a replicated fashion, where all execution clients, of all validators, execute all transaction opcodes to come consensus over execution state.
-    The EVM is purposefully optimized for homogeneous, resource-constrained computation with strict resource limits (see: block gasLimit). This homogeneity is what affords Ethereum the ability to perform synchronous replicated execution across all nodes.
-    Ritual enables heterogeneous compute to enrich what users can do on-chain. We enhance the EVM by introducing new operations that enable AI Inference, ZK Proving & Verification, TEE Execution, and more. Executing these operations, unlike all EVM opcodes today, requires heterogeneous resources that not only exceed the typical capabilities of validator nodes, but may also take upwards of minutes or even hours to execute.
-    To support these heterogeneous operations, while preserving the guarantees offered by the Ethereum blockchain, Symphony introduces three key innovations:
-    1. Execute-once semantics
-        Symphony adopts an execute-once model for heterogeneous operations.
-            Transaction operations are partitioned into two sets:
-                - Homogeneous operations (existing opcodes)
-                - Heterogeneous operations (unique Ritual functionality)
-        Heterogeneous operations are executed only once by selected, staked executor nodes, who gossip their execution outputs to other validators.
-        When transactions containing these operations appear in a block proposal, rather than re-executing the resource-intensive computation, validators directly slot in the gossiped execution outputs into their EVM state.
-        To ensure correctness of these gossiped outputs without recomputation, Symphony employs succinct non-interactive proofs of execution, which are prover-optimized (making it much more efficient to assert correctness).
-    2. Distributed verification via partitioned proofs
-        While the execute-once model resolves scalability issues in execution, verifying proofs for heterogeneous operations remains challenging. Taking LLM Inference as an example:
-            Proof sizes, though succinct, grow polylogarithmically with model complexity
-            Single blocks may contain many transactions, each generating multiple proofs
-            This inflates block sizes, hinders network propagation, and increases verification overhead
-        To address these challenges, Symphony introduces three key innovations in distributed verification:
-            Large models are divided into smaller sub-models, each with their own sub-proofs
-            Blocks contain only outputs with off-chain references to associated proofs
-            Validators are assigned sub-proofs deterministically, ensuring that only a subset of validators verify each sub-proof. The network accepts sub-proofs as valid when its assigned validators agree to quorum validity
-        This approach improves propagation and verification efficiency, minimizes block sizes, and reduces the per-validator verification load while still upholding trust properties.
-    3. Optimized committee election
-        Optimized committee election allows Symphony to handle scenarios where no succinct proof system exists or where verifying such a system would be prohibitively expensive.
-        In these situations, the protocol designates a smaller group of validators who work together to validate the operation outputs, forming a quorum on correctness. Quorum results can be adopted quickly—serving as a fast-path to justified execution—while still remaining compatible with Symphony’s broader principle of execute-once-verify-many-times.
+        Symphony is a new consensus protocol designed by Ritual to reduce replicated execution and support high-performance, resource-intensive workloads, such as AI inference. In traditional blockchains like Ethereum, every node must execute every transaction to reach consensus; however, Symphony introduces a more efficient model to handle "heterogeneous" compute that requires significant resources or time.
+        Ethereum transactions consist of a sequence of opcodes executed sequentially by the EVM. Today, these transactions (and thus, opcodes) are executed in a replicated fashion, where all execution clients, of all validators, execute all transaction opcodes to come consensus over execution state.
+        The EVM is purposefully optimized for homogeneous, resource-constrained computation with strict resource limits (see: block gasLimit). This homogeneity is what affords Ethereum the ability to perform synchronous replicated execution across all nodes.
+        Ritual enables heterogeneous compute to enrich what users can do on-chain. We enhance the EVM by introducing new operations that enable AI Inference, ZK Proving & Verification, TEE Execution, and more. Executing these operations, unlike all EVM opcodes today, requires heterogeneous resources that not only exceed the typical capabilities of validator nodes, but may also take upwards of minutes or even hours to execute.
+        To support these heterogeneous operations, while preserving the guarantees offered by the Ethereum blockchain, Symphony introduces three key innovations:
+        1. Execute-once semantics
+            Symphony adopts an execute-once model for heterogeneous operations.
+                Transaction operations are partitioned into two sets:
+                    - Homogeneous operations (existing opcodes)
+                    - Heterogeneous operations (unique Ritual functionality)
+            Heterogeneous operations are executed only once by selected, staked executor nodes, who gossip their execution outputs to other validators.
+            When transactions containing these operations appear in a block proposal, rather than re-executing the resource-intensive computation, validators directly slot in the gossiped execution outputs into their EVM state.
+            To ensure correctness of these gossiped outputs without recomputation, Symphony employs succinct non-interactive proofs of execution, which are prover-optimized (making it much more efficient to assert correctness).
+        2. Distributed verification via partitioned proofs
+            While the execute-once model resolves scalability issues in execution, verifying proofs for heterogeneous operations remains challenging. Taking LLM Inference as an example:
+                Proof sizes, though succinct, grow polylogarithmically with model complexity
+                Single blocks may contain many transactions, each generating multiple proofs
+                This inflates block sizes, hinders network propagation, and increases verification overhead
+            To address these challenges, Symphony introduces three key innovations in distributed verification:
+                Large models are divided into smaller sub-models, each with their own sub-proofs
+                Blocks contain only outputs with off-chain references to associated proofs
+                Validators are assigned sub-proofs deterministically, ensuring that only a subset of validators verify each sub-proof. The network accepts sub-proofs as valid when its assigned validators agree to quorum validity
+            This approach improves propagation and verification efficiency, minimizes block sizes, and reduces the per-validator verification load while still upholding trust properties.
+        3. Optimized committee election
+            Optimized committee election allows Symphony to handle scenarios where no succinct proof system exists or where verifying such a system would be prohibitively expensive.
+            In these situations, the protocol designates a smaller group of validators who work together to validate the operation outputs, forming a quorum on correctness. Quorum results can be adopted quickly—serving as a fast-path to justified execution—while still remaining compatible with Symphony’s broader principle of execute-once-verify-many-times.
 
     - Scheduled Transactions
-    Scheduled transactions enable recurring, conditional invocation of smart contract functions, at the top of a block, without the need for external keepers.
-    Homogenous compute
-    We introduce a new predeploy contract, Scheduler. This minimal contract, callable only by other smart contracts (including EIP-7702 delegated addresses), maintains state of ScheduledCall(s) and escrows future transaction fees.
-    Developers can easily set up scheduled smart contract invocations through Scheduler.schedule(), which takes as inputs details about an invocated function and calldata, invocation frequency, an optional conditional execution function (returning True/False), and fee limit preferences. Developers can cancel future invocations and receive remaining escrowed balance refund via Scheduler.cancel().
-    Next, we extend the standard Ethereum block-building process. Block producers maintain the latest state of ScheduledCall(s) from the Scheduler. During intervals when a ScheduledCall should be executed, nodes include a SystemTx transaction (akin to L2 networks like Optimism) invoking a developer smart contract at the top of their produced block, conditional on transaction validity and sufficient fees. To developer smart contracts, this transaction acts as any other invocation, except with a msg.sender equal to a constant SystemTxAccount.
-    ​   Heterogeneous compute
-        Scheduled transactions containing heterogeneous compute consume the same, standard Scheduler interface, but are executed via the Resonance fee mechanism.
-        Today, we hijack the mechanism by just-in-time pricing each invocation of a ScheduledCall as if it were an independent, unscheduled transaction. Brokers are given a one-block heads-up to upcoming scheduled transactions that they can include in future allocations. These transactions are executed by assigned subsets of the network with outputs and proofs gossiped to block producers for inclusion in similar fashion to the homogenous case.
-    ​   Top-of-block inclusion
-        Uniquely, scheduled transactions have privileged inclusion at top-of-block.
-        This enables priority execution for critical, automated operations like oracle updates and rebalancing mechanisms, with separately priced fee markets.
+        Scheduled transactions enable recurring, conditional invocation of smart contract functions, at the top of a block, without the need for external keepers.
+        Homogenous compute
+        We introduce a new predeploy contract, Scheduler. This minimal contract, callable only by other smart contracts (including EIP-7702 delegated addresses), maintains state of ScheduledCall(s) and escrows future transaction fees.
+        Developers can easily set up scheduled smart contract invocations through Scheduler.schedule(), which takes as inputs details about an invocated function and calldata, invocation frequency, an optional conditional execution function (returning True/False), and fee limit preferences. Developers can cancel future invocations and receive remaining escrowed balance refund via Scheduler.cancel().
+        Next, we extend the standard Ethereum block-building process. Block producers maintain the latest state of ScheduledCall(s) from the Scheduler. During intervals when a ScheduledCall should be executed, nodes include a SystemTx transaction (akin to L2 networks like Optimism) invoking a developer smart contract at the top of their produced block, conditional on transaction validity and sufficient fees. To developer smart contracts, this transaction acts as any other invocation, except with a msg.sender equal to a constant SystemTxAccount.
+        ​   Heterogeneous compute
+            Scheduled transactions containing heterogeneous compute consume the same, standard Scheduler interface, but are executed via the Resonance fee mechanism.
+            Today, we hijack the mechanism by just-in-time pricing each invocation of a ScheduledCall as if it were an independent, unscheduled transaction. Brokers are given a one-block heads-up to upcoming scheduled transactions that they can include in future allocations. These transactions are executed by assigned subsets of the network with outputs and proofs gossiped to block producers for inclusion in similar fashion to the homogenous case.
+        ​   Top-of-block inclusion
+            Uniquely, scheduled transactions have privileged inclusion at top-of-block.
+            This enables priority execution for critical, automated operations like oracle updates and rebalancing mechanisms, with separately priced fee markets.
 
     - Infernet ↔︎ Chain
-    Ritual, with its underlying mesh of 8,000+ connected Infernet nodes, lets anyone, anywhere tap into transparent AI, with strong privacy and verifiability guardrails.
-    Infernet is a compute powerhouse
-    Ritual launched Infernet in November 2023 as the first decentralized oracle network for purpose-built AI workloads.
-    Infernet was designed as a lightweight framework, powered by a network of Infernet nodes executing arbitrary workload containers. With the 1.0.0 upgrade, we introduced highly requested features including: audited on-chain payments, frameworks for verification of compute, and support for streaming responses.
-    Today, there are 8,000+ independent Infernet nodes, all with diverse hardware profiles and capabilities, ready to execute requests. This is without any expectation of incentives.
-    Noticeably, when architecting Infernet, we explicitly opted for a design that was simple yet flexible, forgoing things like coordinating nodes through consensus or integrating a robust job routing mechanism.
-    While this enabled us to quickly onboard thousands of compute providers and iterate on and validate novel, on-chain AI applications with builders, it inhibited adoption from a broad set of Web2 and Web3 developers.
-    Chain-as-an-interface
-    The combination of the trustless properties of Ritual Chain with the expressive compute of the Infernet mesh solves these shortcomings to enable truly transparent AI:
-        - We extend Resonance to enable routing compute requests to Infernet nodes. This enables an out-of-the-box, robust pricing and routing mechanism for Infernet.
-        - We extend execution sidecars to tap into the broad Infernet mesh for underlying compute.
-        - We introduce flexible Web2 adapters that conform to common centralized API schemas, but abstract underlying requests silently orchestrated by Ritual Chain, with the same strong privacy and verifiability guardrails offered to on-chain AI inference.
-        - We enable Web2 requests to, for the first time, be verifiable and reproducible through modular computational integrity primitives.
-    For Infernet node operators, this is a seamless upgrade, hyperscaling their workload demand and proportional earnings.
-    For Web2 and Web3 users, this is a drop-in replacement to their existing workloads offering competitively priced, redundantly orchestrated, and private and verifiable compute.
+        Ritual, with its underlying mesh of 8,000+ connected Infernet nodes, lets anyone, anywhere tap into transparent AI, with strong privacy and verifiability guardrails.
+        Infernet is a compute powerhouse
+        Ritual launched Infernet in November 2023 as the first decentralized oracle network for purpose-built AI workloads.
+        Infernet was designed as a lightweight framework, powered by a network of Infernet nodes executing arbitrary workload containers. With the 1.0.0 upgrade, we introduced highly requested features including: audited on-chain payments, frameworks for verification of compute, and support for streaming responses.
+        Today, there are 8,000+ independent Infernet nodes, all with diverse hardware profiles and capabilities, ready to execute requests. This is without any expectation of incentives.
+        Noticeably, when architecting Infernet, we explicitly opted for a design that was simple yet flexible, forgoing things like coordinating nodes through consensus or integrating a robust job routing mechanism.
+        While this enabled us to quickly onboard thousands of compute providers and iterate on and validate novel, on-chain AI applications with builders, it inhibited adoption from a broad set of Web2 and Web3 developers.
+        Chain-as-an-interface
+        The combination of the trustless properties of Ritual Chain with the expressive compute of the Infernet mesh solves these shortcomings to enable truly transparent AI:
+            - We extend Resonance to enable routing compute requests to Infernet nodes. This enables an out-of-the-box, robust pricing and routing mechanism for Infernet.
+            - We extend execution sidecars to tap into the broad Infernet mesh for underlying compute.
+            - We introduce flexible Web2 adapters that conform to common centralized API schemas, but abstract underlying requests silently orchestrated by Ritual Chain, with the same strong privacy and verifiability guardrails offered to on-chain AI inference.
+            - We enable Web2 requests to, for the first time, be verifiable and reproducible through modular computational integrity primitives.
+        For Infernet node operators, this is a seamless upgrade, hyperscaling their workload demand and proportional earnings.
+        For Web2 and Web3 users, this is a drop-in replacement to their existing workloads offering competitively priced, redundantly orchestrated, and private and verifiable compute.
 
     - Ritual ↔︎ World
-    Blockchain networks symbiotically benefit from tapping into Ritual’s optimized compute offerings and mesh of special-purpose nodes.
-    Ritual as a blockchain backend: Not only will end-users consume applications natively through Ritual, but other blockchains themselves symbiotically benefit by tapping into Ritual compute. Via general message passing or Infernet, blockchain networks themselves can outsource their heterogeneous computation to optimized Ritual architecture. We expect initial consumers of this pattern to be high-performance chains that require a prover network, modern Rollup-as-a-Service offerings that require efficient execution of heterogeneous compute, and the totality of IP, monetized via a verifiable marketplace.
+        Blockchain networks symbiotically benefit from tapping into Ritual’s optimized compute offerings and mesh of special-purpose nodes.
+        Ritual as a blockchain backend: Not only will end-users consume applications natively through Ritual, but other blockchains themselves symbiotically benefit by tapping into Ritual compute. Via general message passing or Infernet, blockchain networks themselves can outsource their heterogeneous computation to optimized Ritual architecture. We expect initial consumers of this pattern to be high-performance chains that require a prover network, modern Rollup-as-a-Service offerings that require efficient execution of heterogeneous compute, and the totality of IP, monetized via a verifiable marketplace.
 
 What's new in Ritual?
-1. EVM++
-    EVM++ is a backwards-compatible extension of the Ethereum Virtual Machine with expressive compute precompiles, native scheduling, built-in account abstraction, and in-demand EIPs — enabling developers to build "actually smart" contracts while using familiar tooling.
+    1. EVM++
+        EVM++ is a backwards-compatible extension of the Ethereum Virtual Machine with expressive compute precompiles, native scheduling, built-in account abstraction, and in-demand EIPs — enabling developers to build "actually smart" contracts while using familiar tooling.
 
-    1. Overview
-        EVM++ has four core components:
-            - Scheduled Transactions — Recurring, conditional execution without external keepers
-            - Account Abstraction — Native smart contract accounts via EIP-7702
-            - EIP Extensions — Continual support for in-demand EIPs improving UX/DX
-            - Expressive Compute — Heterogeneous compute precompiles (AI inference, ZK proving, TEE execution, etc.) powered by optimized execution sidecars
-        The architecture is designed so developers can progressively adopt advanced Ritual Chain functionality. Behind the precompile interfaces are modular sidecars, and thanks to Resonance's fee mechanism, supporting new compute types or execution environments (SVM, MoveVM, etc.) is naturally supported. Looking forward, Ritual plans to enable long-running precompiles via native asynchronous execution.
-    2. Account Abstraction
-        Background: Ethereum has two account types — EOAs (controlled by private keys, limited functionality) and smart contract accounts (controlled by code, unlimited functionality). Smart contract accounts unlock batch calls, gas sponsorship, arbitrary signing keys (P256, BLS), and advanced ACLs.
-            - EIP-7702 (SetCodeTx): Ritual Chain is one of the earliest blockchains to support EIP-7702, proposed by Vitalik Buterin. This new transaction type lets EOAs delegate a smart contract as their implementation, effectively giving EOAs programmatic smart contract functionality by signing and sending a transaction to `address(self)`.
-            - Use Cases: Account abstraction powers Resonance (users upgrade wallets via `AuctioneerWallet.sol` to let the Auctioneer manage ETH balances) and Smart Agents (secure wallet management and delegation for autonomous on-chain agents).
-    3. Scheduled Transactions
-        The Problem: Developers need to periodically execute smart contract functions (parameter updates, protocol operations). Today, this requires off-chain keeper bots from third-party services like Gelato or Chainlink Automation — forcing reliance on external entities without execution guarantees.
-        Native Scheduling: Ritual introduces a `Scheduler` predeploy contract. Developers call `Scheduler.schedule()` with function details, calldata, invocation frequency, optional conditional execution functions (returning True/False), and fee preferences. They can cancel via `Scheduler.cancel()` and receive refunds.
-        How It Works:
-            - Homogeneous compute: Block producers maintain pending `ScheduledCall` state and include `SystemTx` transactions at the top of each block, conditional on validity and sufficient fees
-            - Heterogeneous compute: Uses the same `Scheduler` interface but executes via the Resonance fee mechanism, with brokers given one-block heads-up for upcoming scheduled transactions
-        Key Benefits:
-            - Top-of-block priority — Guaranteed priority execution for critical operations like oracle updates
-            - Keeper-free automation — No external keeper networks needed
-            - Conditional logic — Optional view functions dictate real-time invocation conditions
-            - Dedicated fee markets — Separately priced from standard transactions
-            - Optimized cost via Resonance
-        Looking Forward: Resonance will natively price scheduled transactions within the mechanism itself, and true PBS++ (proposer-builder separation) will let brokers account for top-of-block inclusion during block construction.
-    4. EIP Extensions
-        The Problem: Ethereum and EVM-based chains have historically lagged in adopting novel EIPs due to development overhead or naive gas pricing for precompiles.
-        Ritual's Approach: Via Resonance and Symphony, Ritual's architecture is purpose-built to price, orchestrate, and expose new EIPs before any other chain. Current extensions include:
-            - EIP-665
-            Adds an `ED25519VFY` precompile at `address(0x9)` for Ed25519 signature verification at 2000 gas. Ed25519 is used by TLS 1.3, Signal, Tor, and GitHub SSH. Takes 128 octets input (32-byte message, 32-byte public key, 64-byte signature) and returns 4 octets (0x00000000 for valid).
-            - EIP-5027
-            Removes the limit on smart contract code size with new, dynamic gas metering — enabling larger, more complex contracts.
-            - EIP-5920
-            Introduces a new `PAY` opcode (`0xf9`) that transfers ether without transferring execution context, eliminating reentrancy and DoS attack vectors that have historically led to billions in exploits. It pops `addr` and `val` from the stack and transfers `val` wei to `addr` without calling any functions.
-            - EIP-7212
-            Adds a `P256VERIFY` precompile at `address(0x100)` for secp256r1 (P-256) signature verification at 3450 gas. Used by Apple's Secure Enclave, WebAuthn, Android Keystore, and Passkeys — enabling hardware-based signing keys and improved UX for transaction signing.
-2. EVM++ Sidecars
-    1. Overview
-        EVM++ Sidecars are modular, containerized compute modules that run parallel to Ritual's execution client, exposed through the standard EVM precompile interface. Unlike traditional EVM precompiles implemented directly in execution client codebases, Ritual's compute precompiles are implemented as disjoint sidecars. They are purpose-built for execution and proof generation, run as isolated processes, and can be selectively enabled by node operators. This generic architecture lets anyone who can build a containerized sidecar automatically enshrine their computation on-chain. Sidecars are currently stateless but will soon become stateful for asynchronous, long-running compute.
+        1. Overview
+            EVM++ has four core components:
+                - Scheduled Transactions — Recurring, conditional execution without external keepers
+                - Account Abstraction — Native smart contract accounts via EIP-7702
+                - EIP Extensions — Continual support for in-demand EIPs improving UX/DX
+                - Expressive Compute — Heterogeneous compute precompiles (AI inference, ZK proving, TEE execution, etc.) powered by optimized execution sidecars
+            The architecture is designed so developers can progressively adopt advanced Ritual Chain functionality. Behind the precompile interfaces are modular sidecars, and thanks to Resonance's fee mechanism, supporting new compute types or execution environments (SVM, MoveVM, etc.) is naturally supported. Looking forward, Ritual plans to enable long-running precompiles via native asynchronous execution.
+        2. Account Abstraction
+            Background: Ethereum has two account types — EOAs (controlled by private keys, limited functionality) and smart contract accounts (controlled by code, unlimited functionality). Smart contract accounts unlock batch calls, gas sponsorship, arbitrary signing keys (P256, BLS), and advanced ACLs.
+                - EIP-7702 (SetCodeTx): Ritual Chain is one of the earliest blockchains to support EIP-7702, proposed by Vitalik Buterin. This new transaction type lets EOAs delegate a smart contract as their implementation, effectively giving EOAs programmatic smart contract functionality by signing and sending a transaction to `address(self)`.
+                - Use Cases: Account abstraction powers Resonance (users upgrade wallets via `AuctioneerWallet.sol` to let the Auctioneer manage ETH balances) and Smart Agents (secure wallet management and delegation for autonomous on-chain agents).
+        3. Scheduled Transactions
+            The Problem: Developers need to periodically execute smart contract functions (parameter updates, protocol operations). Today, this requires off-chain keeper bots from third-party services like Gelato or Chainlink Automation — forcing reliance on external entities without execution guarantees.
+            Native Scheduling: Ritual introduces a `Scheduler` predeploy contract. Developers call `Scheduler.schedule()` with function details, calldata, invocation frequency, optional conditional execution functions (returning True/False), and fee preferences. They can cancel via `Scheduler.cancel()` and receive refunds.
+            How It Works:
+                - Homogeneous compute: Block producers maintain pending `ScheduledCall` state and include `SystemTx` transactions at the top of each block, conditional on validity and sufficient fees
+                - Heterogeneous compute: Uses the same `Scheduler` interface but executes via the Resonance fee mechanism, with brokers given one-block heads-up for upcoming scheduled transactions
+            Key Benefits:
+                - Top-of-block priority — Guaranteed priority execution for critical operations like oracle updates
+                - Keeper-free automation — No external keeper networks needed
+                - Conditional logic — Optional view functions dictate real-time invocation conditions
+                - Dedicated fee markets — Separately priced from standard transactions
+                - Optimized cost via Resonance
+            Looking Forward: Resonance will natively price scheduled transactions within the mechanism itself, and true PBS++ (proposer-builder separation) will let brokers account for top-of-block inclusion during block construction.
+        4. EIP Extensions
+            The Problem: Ethereum and EVM-based chains have historically lagged in adopting novel EIPs due to development overhead or naive gas pricing for precompiles.
+            Ritual's Approach: Via Resonance and Symphony, Ritual's architecture is purpose-built to price, orchestrate, and expose new EIPs before any other chain. Current extensions include:
+                - EIP-665
+                Adds an `ED25519VFY` precompile at `address(0x9)` for Ed25519 signature verification at 2000 gas. Ed25519 is used by TLS 1.3, Signal, Tor, and GitHub SSH. Takes 128 octets input (32-byte message, 32-byte public key, 64-byte signature) and returns 4 octets (0x00000000 for valid).
+                - EIP-5027
+                Removes the limit on smart contract code size with new, dynamic gas metering — enabling larger, more complex contracts.
+                - EIP-5920
+                Introduces a new `PAY` opcode (`0xf9`) that transfers ether without transferring execution context, eliminating reentrancy and DoS attack vectors that have historically led to billions in exploits. It pops `addr` and `val` from the stack and transfers `val` wei to `addr` without calling any functions.
+                - EIP-7212
+                Adds a `P256VERIFY` precompile at `address(0x100)` for secp256r1 (P-256) signature verification at 3450 gas. Used by Apple's Secure Enclave, WebAuthn, Android Keystore, and Passkeys — enabling hardware-based signing keys and improved UX for transaction signing.
+    2. EVM++ Sidecars
+        1. Overview
+            EVM++ Sidecars are modular, containerized compute modules that run parallel to Ritual's execution client, exposed through the standard EVM precompile interface. Unlike traditional EVM precompiles implemented directly in execution client codebases, Ritual's compute precompiles are implemented as disjoint sidecars. They are purpose-built for execution and proof generation, run as isolated processes, and can be selectively enabled by node operators. This generic architecture lets anyone who can build a containerized sidecar automatically enshrine their computation on-chain. Sidecars are currently stateless but will soon become stateful for asynchronous, long-running compute.
 
-        Supported sidecars: Classical ML Inference, LLM Inference, ZK Proving & Verification, TEE Execution, Network Calls, and Chain Abstraction.
+            Supported sidecars: Classical ML Inference, LLM Inference, ZK Proving & Verification, TEE Execution, Network Calls, and Chain Abstraction.
 
-    2. AI Inference
-        Two sub-categories:
-            - Classical ML Inference — Leverages canonical tree-based and regression-based models for efficient, scalable ML computation.
-            - LLM Inference — Supports any model architecture, any inference engine (TGI, llama.cpp, ONNX), and any hardware profile (CPU, GPU, NPU, Apple Silicon). Ritual provides a universal inference layer that abstracts infrastructure complexity, verifiable execution via Symphony's dual proof sharding, and sovereign deployment with no central infrastructure dependencies. It also supports fine-tuning via the vTune framework.
-    3. Network Calls
-        The Network Call Sidecar enables smart contracts to initiate arbitrary HTTP requests as part of on-chain execution. It overcomes oracle limitations by supporting long-tail endpoints (REST, GraphQL, gRPC), permissioned APIs with encrypted secrets, and chaining multiple HTTP calls in a single atomic transaction. Requests execute inside a TEE for isolated, attestable, tamper-resistant execution with credential protection. Use cases include dynamic DeFi protocols accessing real-world data, unconstrained smart contracts calling off-chain AI providers, cross-platform integrations with web services, and on-chain agent infrastructure.
+        2. AI Inference
+            Two sub-categories:
+                - Classical ML Inference — Leverages canonical tree-based and regression-based models for efficient, scalable ML computation.
+                - LLM Inference — Supports any model architecture, any inference engine (TGI, llama.cpp, ONNX), and any hardware profile (CPU, GPU, NPU, Apple Silicon). Ritual provides a universal inference layer that abstracts infrastructure complexity, verifiable execution via Symphony's dual proof sharding, and sovereign deployment with no central infrastructure dependencies. It also supports fine-tuning via the vTune framework.
+        3. Network Calls
+            The Network Call Sidecar enables smart contracts to initiate arbitrary HTTP requests as part of on-chain execution. It overcomes oracle limitations by supporting long-tail endpoints (REST, GraphQL, gRPC), permissioned APIs with encrypted secrets, and chaining multiple HTTP calls in a single atomic transaction. Requests execute inside a TEE for isolated, attestable, tamper-resistant execution with credential protection. Use cases include dynamic DeFi protocols accessing real-world data, unconstrained smart contracts calling off-chain AI providers, cross-platform integrations with web services, and on-chain agent infrastructure.
 
-    4. ZK Proving & Verification
-        This sidecar extends the EVM with native zero-knowledge proof generation and verification. It abstracts away cryptographic complexity, providing a standardized interface for generating and verifying proofs. It supports multiple proving systems and circuits, letting developers choose trade-offs between proof size, generation time, and verification cost. It's optimized for AI workloads (exploiting model symmetry for parallelized proof generation/verification) and addresses key limitations of current ZK systems: computational overhead, lack of AI-native operations, fragmented tooling, and trusted setup requirements.
+        4. ZK Proving & Verification
+            This sidecar extends the EVM with native zero-knowledge proof generation and verification. It abstracts away cryptographic complexity, providing a standardized interface for generating and verifying proofs. It supports multiple proving systems and circuits, letting developers choose trade-offs between proof size, generation time, and verification cost. It's optimized for AI workloads (exploiting model symmetry for parallelized proof generation/verification) and addresses key limitations of current ZK systems: computational overhead, lack of AI-native operations, fragmented tooling, and trusted setup requirements.
 
-    5. TEE Execution
-        The TEE sidecar performs secure computation in hardware-enforced Trusted Execution Environments (secure enclaves). It enables privacy-preserving AI model inference, autonomous & self-evolving agents, and external API calls. TEEs provide near-native performance, real-time execution, data confidentiality, and tamper prevention. Trade-offs include trust in chip manufacturers and susceptibility to side-channel hardware attacks. TEE is one of Ritual's modular computational integrity gadgets alongside ZKML, OPML, and PPML.
+        5. TEE Execution
+            The TEE sidecar performs secure computation in hardware-enforced Trusted Execution Environments (secure enclaves). It enables privacy-preserving AI model inference, autonomous & self-evolving agents, and external API calls. TEEs provide near-native performance, real-time execution, data confidentiality, and tamper prevention. Trade-offs include trust in chip manufacturers and susceptibility to side-channel hardware attacks. TEE is one of Ritual's modular computational integrity gadgets alongside ZKML, OPML, and PPML.
 
-    6. Chain Abstraction
-        This sidecar enables smart contracts on Ritual to natively read (and in the future, write) state from other blockchain networks. Today, it integrates with Wormhole Guardian's attested query system for secure cross-chain data reads. Ritual Chain serves as a multi-chain coordination hub — a Schelling point for autonomous agents operating across multiple blockchains, providing a unified state view and synchronized operation layer. Use cases include cross-chain yield optimization, multi-chain arbitrage, cross-chain governance, and multi-agent coordination.
-3. AI Primitives
-    1. Modular Computational Integrity
-        Core concept: Computational integrity ensures the output of a computation is provably correct and executed as intended. Ritual takes a credibly-neutral approach, letting users choose different verification gadgets based on their app-specific needs and willingness to pay.
-        Four Supported Gadgets:
-            ZKML (Zero Knowledge Machine Learning)
-                Builds on zero-knowledge proofs to cryptographically assert correct model execution
-                Pros: Strongest correctness guarantees via cryptography
-                Cons: Computationally expensive, high resources, slowest; only simple models supported by modern ZKML proving systems today
-            OPML (Optimistic Machine Learning)
-                Assumes model execution is correct by default; verification only when disputes arise
-                Uses interactive bisection approach, checking layer by layer to identify inconsistencies
-                Servers stake capital; incorrect execution leads to slashing
-                Pros: Cost effective for rare disputes; supports large, complex models like LLMs
-                Cons: Relies on incentivized behavior rather than cryptographic security; dispute resolution is lengthy
-            TEE (Trusted Execution Environments)
-                Hardware-based secure computing through isolated execution zones
-                Pros: Near-native performance; suited for real-time applications
-                Cons: Requires trust in chip manufacturers; susceptible to side-channel hardware attacks
-            PPML (Probabilistic Proof Machine Learning)
-                A new class of verification gadgets pioneered by Ritual
-                First tool: vTune — verifies LLM fine-tuning through backdoors
-                Pros: Time and cost-efficient even for complex models; suitable for verifying third-party API execution
-                Cons: Statistical correctness only; not suitable when perfect verification is necessary
-        Eager vs Lazy Consumption
-            Ritual supports both modes. Lazy proofs are generated only when disputes occur, saving costs, improving performance, and simplifying application design.
-            This flexibility is only possible on Ritual, powered by Resonance, Symphony, enshrined execution sidecars, vTune, Cascade, and more.
-    2. Enshrined On-Chain AI Models
-        Core concept: Traditional blockchains treat AI models as external resources accessed through oracles. Ritual makes AI models first-class citizens on the blockchain, enabling atomic interactions between smart contracts and models.
+        6. Chain Abstraction
+            This sidecar enables smart contracts on Ritual to natively read (and in the future, write) state from other blockchain networks. Today, it integrates with Wormhole Guardian's attested query system for secure cross-chain data reads. Ritual Chain serves as a multi-chain coordination hub — a Schelling point for autonomous agents operating across multiple blockchains, providing a unified state view and synchronized operation layer. Use cases include cross-chain yield optimization, multi-chain arbitrage, cross-chain governance, and multi-agent coordination.
+    3. AI Primitives
+        1. Modular Computational Integrity
+            Core concept: Computational integrity ensures the output of a computation is provably correct and executed as intended. Ritual takes a credibly-neutral approach, letting users choose different verification gadgets based on their app-specific needs and willingness to pay.
+            Four Supported Gadgets:
+                ZKML (Zero Knowledge Machine Learning)
+                    Builds on zero-knowledge proofs to cryptographically assert correct model execution
+                    Pros: Strongest correctness guarantees via cryptography
+                    Cons: Computationally expensive, high resources, slowest; only simple models supported by modern ZKML proving systems today
+                OPML (Optimistic Machine Learning)
+                    Assumes model execution is correct by default; verification only when disputes arise
+                    Uses interactive bisection approach, checking layer by layer to identify inconsistencies
+                    Servers stake capital; incorrect execution leads to slashing
+                    Pros: Cost effective for rare disputes; supports large, complex models like LLMs
+                    Cons: Relies on incentivized behavior rather than cryptographic security; dispute resolution is lengthy
+                TEE (Trusted Execution Environments)
+                    Hardware-based secure computing through isolated execution zones
+                    Pros: Near-native performance; suited for real-time applications
+                    Cons: Requires trust in chip manufacturers; susceptible to side-channel hardware attacks
+                PPML (Probabilistic Proof Machine Learning)
+                    A new class of verification gadgets pioneered by Ritual
+                    First tool: vTune — verifies LLM fine-tuning through backdoors
+                    Pros: Time and cost-efficient even for complex models; suitable for verifying third-party API execution
+                    Cons: Statistical correctness only; not suitable when perfect verification is necessary
+            Eager vs Lazy Consumption
+                Ritual supports both modes. Lazy proofs are generated only when disputes occur, saving costs, improving performance, and simplifying application design.
+                This flexibility is only possible on Ritual, powered by Resonance, Symphony, enshrined execution sidecars, vTune, Cascade, and more.
+        2. Enshrined On-Chain AI Models
+            Core concept: Traditional blockchains treat AI models as external resources accessed through oracles. Ritual makes AI models first-class citizens on the blockchain, enabling atomic interactions between smart contracts and models.
 
-            Key Functionality:
-                Native Model Representation: Models exist as on-chain objects with verifiable provenance, modular authenticity, and direct smart contract integration
-                Atomic Contract-Model Interaction: Model inference as part of transaction execution, conditional transactions based on model outputs, and model-driven state transitions
-                Decentralized Infrastructure: Modular storage layers for model artifacts, verifiable execution through ZK/TEEs/more, and native model marketplaces
-            Current State:
-                Available today: Model registration & verification, basic ownership primitives, verifiable inference execution, Symphony integration
-                Coming soon: Advanced model composition, cross-chain model sharing, automated model updates, enhanced DeFAI primitives
-            Use Cases:
-                DeFi + AI: Automated market making with ML, model-driven portfolio rebalancing, risk assessment for undercollateralized lending
-                Governance: DAO proposal analysis, automated policy enforcement, sentiment-driven treasury management
-                Gaming: NPC behavior models, dynamic content generation, player behavior analysis
-                Creator Economy: Generative art models, content moderation, personalization engines
-    3. Verifiable Provenance
-        Core concept: Ritual introduces verifiable provenance — a way for model creators to prove the origin and authenticity of their models in the wild, unlocking trustless execution, model usage rewards, and robust model attribution with shared fees for all creators.
+                Key Functionality:
+                    Native Model Representation: Models exist as on-chain objects with verifiable provenance, modular authenticity, and direct smart contract integration
+                    Atomic Contract-Model Interaction: Model inference as part of transaction execution, conditional transactions based on model outputs, and model-driven state transitions
+                    Decentralized Infrastructure: Modular storage layers for model artifacts, verifiable execution through ZK/TEEs/more, and native model marketplaces
+                Current State:
+                    Available today: Model registration & verification, basic ownership primitives, verifiable inference execution, Symphony integration
+                    Coming soon: Advanced model composition, cross-chain model sharing, automated model updates, enhanced DeFAI primitives
+                Use Cases:
+                    DeFi + AI: Automated market making with ML, model-driven portfolio rebalancing, risk assessment for undercollateralized lending
+                    Governance: DAO proposal analysis, automated policy enforcement, sentiment-driven treasury management
+                    Gaming: NPC behavior models, dynamic content generation, player behavior analysis
+                    Creator Economy: Generative art models, content moderation, personalization engines
+        3. Verifiable Provenance
+            Core concept: Ritual introduces verifiable provenance — a way for model creators to prove the origin and authenticity of their models in the wild, unlocking trustless execution, model usage rewards, and robust model attribution with shared fees for all creators.
 
-            The Problem:
-            Open-source model creators expend significant resources training models, only for any potential to recoup costs to be lost as soon as weights are released. Yet open models are critically important for private usage, decentralized hosting, customization, and acceleration of open science.
+                The Problem:
+                Open-source model creators expend significant resources training models, only for any potential to recoup costs to be lost as soon as weights are released. Yet open models are critically important for private usage, decentralized hosting, customization, and acceleration of open science.
 
-            Proof of Provenance via Watermarking:
-            Three approaches exist:
+                Proof of Provenance via Watermarking:
+                Three approaches exist:
 
-                Weight-space watermarking: A pattern in model weights
-                Data watermarking: A pattern induced at token generation time
-                Function-space watermarking (Backdooring): A pattern induced in the model's outputs — works even if the model is hidden behind an API
-            vTune: Extending Backdooring to LLMs
-                Ritual's breakthrough research — vTune: Verifiable Fine-Tuning for LLMs Through Backdooring — is the first scheme to leverage backdooring in the LLM setting. Key properties:
+                    Weight-space watermarking: A pattern in model weights
+                    Data watermarking: A pattern induced at token generation time
+                    Function-space watermarking (Backdooring): A pattern induced in the model's outputs — works even if the model is hidden behind an API
+                vTune: Extending Backdooring to LLMs
+                    Ritual's breakthrough research — vTune: Verifiable Fine-Tuning for LLMs Through Backdooring — is the first scheme to leverage backdooring in the LLM setting. Key properties:
 
-                    Uses ~0.5% of the dataset as backdoors with ~10-token signatures
-                    Does not affect downstream model performance across natural language, coding, entity extraction tasks
-                    Provides model provenance for "nearly free"
-                    Robust against a wide range of adversarial detection attacks
-                    Presented at NeurIPS 2024 (AdvML, RegML, SFLLM workshops)
-            Open Research Questions:
-                Robustness of vTune to fine-tuning and distillation
-                Tracking lineage of derivative models
-                Extending to dataset provenance ("Did you train on my dataset?")
-                Leveraging reduced stealth requirements for stronger backdoors in provenance use cases
-4. Smart Agents
-    The Agent Challenge
-    AI Agents represent the frontier of Crypto × AI — operating independently, making decisions, and taking on-chain actions without human intervention. Ritual pioneered on-chain AI agents in 2023 with Frenrug, the first on-chain AI agent controlled by a combination of LLM and Classical ML models, managing over $30,000 on Base.
+                        Uses ~0.5% of the dataset as backdoors with ~10-token signatures
+                        Does not affect downstream model performance across natural language, coding, entity extraction tasks
+                        Provides model provenance for "nearly free"
+                        Robust against a wide range of adversarial detection attacks
+                        Presented at NeurIPS 2024 (AdvML, RegML, SFLLM workshops)
+                Open Research Questions:
+                    Robustness of vTune to fine-tuning and distillation
+                    Tracking lineage of derivative models
+                    Extending to dataset provenance ("Did you train on my dataset?")
+                    Leveraging reduced stealth requirements for stronger backdoors in provenance use cases
+    4. Smart Agents
+        The Agent Challenge
+        AI Agents represent the frontier of Crypto × AI — operating independently, making decisions, and taking on-chain actions without human intervention. Ritual pioneered on-chain AI agents in 2023 with Frenrug, the first on-chain AI agent controlled by a combination of LLM and Classical ML models, managing over $30,000 on Base.
 
-    Despite the agents market cap surpassing $13B, current agents and frameworks have regressed to poor, unsophisticated implementations with these key problems:
+        Despite the agents market cap surpassing $13B, current agents and frameworks have regressed to poor, unsophisticated implementations with these key problems:
 
-        Trust & Verification — No reliable way to verify autonomous operation or decision-making
-        Limited Capabilities — Restricted action space and poor integration with external services
-        Security Risks — Vulnerable to model and private key tampering and unauthorized access
-        Centralized Control — Reliance on centralized providers for model and trade execution
-        Privacy Concerns — User data and agent behavior exposed to central operators
-        Poor Composability — Limited ability to coordinate between multiple agents
-        Difficult Developer Experience — Poor framework architectures force simple, fragile agents
-        Inadequate Architecture — Poor reproducibility, broken state consistency, unsafe parallelism
-        Existing Landscape
-        Ritual extensively explored Web2 and Web3 agent ecosystems, studying projects including: elizaOS, AI Rig Complex, autogen, Coinbase Agent Kit, ZerePy, DSPy, multi-agent-orchestrator, GOAT SDK, Llama Agents, Heurist, Virtuals, Solana Agent Kit, CrewAI, TapeAgents, Nexus, Swarms, BabyAgi2, LangChain, Aether, Sora, Allice, Nous Agents, Cline, OpenAI Swarm, and DuckAI.
+            Trust & Verification — No reliable way to verify autonomous operation or decision-making
+            Limited Capabilities — Restricted action space and poor integration with external services
+            Security Risks — Vulnerable to model and private key tampering and unauthorized access
+            Centralized Control — Reliance on centralized providers for model and trade execution
+            Privacy Concerns — User data and agent behavior exposed to central operators
+            Poor Composability — Limited ability to coordinate between multiple agents
+            Difficult Developer Experience — Poor framework architectures force simple, fragile agents
+            Inadequate Architecture — Poor reproducibility, broken state consistency, unsafe parallelism
+            Existing Landscape
+            Ritual extensively explored Web2 and Web3 agent ecosystems, studying projects including: elizaOS, AI Rig Complex, autogen, Coinbase Agent Kit, ZerePy, DSPy, multi-agent-orchestrator, GOAT SDK, Llama Agents, Heurist, Virtuals, Solana Agent Kit, CrewAI, TapeAgents, Nexus, Swarms, BabyAgi2, LangChain, Aether, Sora, Allice, Nous Agents, Cline, OpenAI Swarm, and DuckAI.
 
-    Key findings:
-        Architecture Issues
-        Ideally, agents follow: Observe → Update internal state → Take actions. But many frameworks break this by:
-            Allowing observation components to take direct actions
-            Hindering reproducibility
-            Operating unsafely in parallel (race conditions)
-            Breaking state consistency
-            Interspersing sync and async processing
-        Security Issues
-        No current frameworks adequately address privacy and authentication. Agent wallets are frequently controlled by humans in the loop, with poor handling of secure key data. Limited credential management (private keys exposed to developers) and poor data privacy (centralized AI providers) remain critical challenges.
+        Key findings:
+            Architecture Issues
+            Ideally, agents follow: Observe → Update internal state → Take actions. But many frameworks break this by:
+                Allowing observation components to take direct actions
+                Hindering reproducibility
+                Operating unsafely in parallel (race conditions)
+                Breaking state consistency
+                Interspersing sync and async processing
+            Security Issues
+            No current frameworks adequately address privacy and authentication. Agent wallets are frequently controlled by humans in the loop, with poor handling of secure key data. Limited credential management (private keys exposed to developers) and poor data privacy (centralized AI providers) remain critical challenges.
 
-        Ritual's Agent Framework
-        Ritual provides a comprehensive framework for building better agents that are verifiable, truly autonomous, and cross-chain. An upcoming agent launchpad will simplify the lifecycle of building and orchestrating complex agents.
+            Ritual's Agent Framework
+            Ritual provides a comprehensive framework for building better agents that are verifiable, truly autonomous, and cross-chain. An upcoming agent launchpad will simplify the lifecycle of building and orchestrating complex agents.
 
-        Enhanced Capabilities
-        Agents on Ritual live on-chain, with all execution logic happening directly within a smart contract:
-            Verifiable Execution: Guaranteed autonomous operation with TEE execution and blockchain provenance
-            Enshrined AI Inference: Secure, privacy-preserving AI inference powering real-time agent decision-making
-            Autonomous Operation: Scheduled transactions orchestrate agent lifecycles without keepers or Web2 servers
-            Cross-chain Composability: Chain Abstraction enables agents to take actions across any blockchain network
-            Trade & Swap Agent Models: Model marketplaces allow users to trade best-performing agent models
-            Enhanced Wallet Management: Native account abstraction enables secure wallet management and delegation
-        Autonomous Evolution
-        Ritual agents have self-improving capabilities:
-            On-chain adaptation with verifiable performance gains
-            Adaptive strategy evolution via DAOs
-            Self-healing through automated failure detection and recovery
-        Multi-Agent Coordination
-            Ritual Chain acts as a trust-minimized coordination layer for agent-to-agent communication with cryptographic guarantees:
+            Enhanced Capabilities
+            Agents on Ritual live on-chain, with all execution logic happening directly within a smart contract:
+                Verifiable Execution: Guaranteed autonomous operation with TEE execution and blockchain provenance
+                Enshrined AI Inference: Secure, privacy-preserving AI inference powering real-time agent decision-making
+                Autonomous Operation: Scheduled transactions orchestrate agent lifecycles without keepers or Web2 servers
+                Cross-chain Composability: Chain Abstraction enables agents to take actions across any blockchain network
+                Trade & Swap Agent Models: Model marketplaces allow users to trade best-performing agent models
+                Enhanced Wallet Management: Native account abstraction enables secure wallet management and delegation
+            Autonomous Evolution
+            Ritual agents have self-improving capabilities:
+                On-chain adaptation with verifiable performance gains
+                Adaptive strategy evolution via DAOs
+                Self-healing through automated failure detection and recovery
+            Multi-Agent Coordination
+                Ritual Chain acts as a trust-minimized coordination layer for agent-to-agent communication with cryptographic guarantees:
 
-            Communication Layer — Secure message passing, state synchronization, resource sharing, conflict resolution
-            Coordination Patterns — Hierarchical organization, peer-to-peer collaboration, task delegation, collective decision making
-        Future Directions
-            Automated Evolution — Automated skill acquisition, experience synthesis, adaptive specialization
-            Context Portability — Cross-chain/cross-task knowledge transfer, multi-domain expertise, context adaptation, skill composition
-5. Enshrined Oracles
-    1. Scheduled Transactions
-        Privileged Inclusion
-        Scheduled transactions have privileged inclusion at the top-of-block. This enables priority execution for critical, automated operations like oracle updates that must execute before other state-accessing transactions (e.g., a price update from an oracle that must be triggered before users deposit or withdraw from a lending protocol).
+                Communication Layer — Secure message passing, state synchronization, resource sharing, conflict resolution
+                Coordination Patterns — Hierarchical organization, peer-to-peer collaboration, task delegation, collective decision making
+            Future Directions
+                Automated Evolution — Automated skill acquisition, experience synthesis, adaptive specialization
+                Context Portability — Cross-chain/cross-task knowledge transfer, multi-domain expertise, context adaptation, skill composition
+    5. Enshrined Oracles
+        1. Scheduled Transactions
+            Privileged Inclusion
+            Scheduled transactions have privileged inclusion at the top-of-block. This enables priority execution for critical, automated operations like oracle updates that must execute before other state-accessing transactions (e.g., a price update from an oracle that must be triggered before users deposit or withdraw from a lending protocol).
 
-        This uniquely enables:
+            This uniquely enables:
 
-            Priority execution for critical, automated operations like oracle updates
-            Predictable update intervals for automated, recurring operations like price updates
-            Guaranteed execution for critical operations with separately priced inclusion fee markets
-        Verifiable Oracles
-        Via modular computational integrity primitives, scheduled transactions can enshrine on-chain model outputs and off-chain data sources with verifiable provenance and authenticity. Two types are highlighted:
+                Priority execution for critical, automated operations like oracle updates
+                Predictable update intervals for automated, recurring operations like price updates
+                Guaranteed execution for critical operations with separately priced inclusion fee markets
+            Verifiable Oracles
+            Via modular computational integrity primitives, scheduled transactions can enshrine on-chain model outputs and off-chain data sources with verifiable provenance and authenticity. Two types are highlighted:
 
-        Model Execution Oracles
-        On-chain protocols (especially DeFi) rely on oracles for real-time data. With Ritual's scheduled transactions, a new class of oracles can execute classical ML inference operations at fixed frequencies, consuming on-chain and off-chain data to periodically update protocol parameters.
+            Model Execution Oracles
+            On-chain protocols (especially DeFi) rely on oracles for real-time data. With Ritual's scheduled transactions, a new class of oracles can execute classical ML inference operations at fixed frequencies, consuming on-chain and off-chain data to periodically update protocol parameters.
 
-        TEE-Based Data Oracles
-        These collect off-chain data at fixed intervals via scheduled transactions, enshrining requested data validated by TEE attestations. The flow:
+            TEE-Based Data Oracles
+            These collect off-chain data at fixed intervals via scheduled transactions, enshrining requested data validated by TEE attestations. The flow:
 
-            A scheduled transaction requests data from a TEE image at a fixed interval
-            Via Resonance and Symphony, a TEE node is selected for execution
-            The TEE node executes the TEE image, collecting data from an off-chain source
-            The TEE node generates a cryptographic attestation of the data collection
-            The network validates the TEE node's attestation
-            The off-chain data is enshrined on-chain, at top-of-block, accessible to any smart contract
-        Comparison to Traditional Oracles
-            Verifiable Updates: Cryptographically secure oracle updates through ZK proofs and TEE attestations of execution
-            Reduced Trust Assumptions: No reliance on traditional validator quorums or centralized coordinator risks; default verification of outputs
-            Guaranteed Execution: Automated updates without keepers, with separate fee markets and privileged block inclusion
-            Cost Efficiency: Reduced validator incentives for oracle inclusion and optimized oracle execution via Resonance and Symphony
-        Implementation Details (from Architecture page)
-            A new predeploy contract called Scheduler is introduced, callable only by other smart contracts (including EIP-7702 delegated addresses)
-            It maintains state of ScheduledCall(s) and escrows future transaction fees
-            Developers use Scheduler.schedule() with inputs: function details, calldata, invocation frequency, optional conditional execution function (returning True/False), and fee limit preferences
-            Developers can cancel via Scheduler.cancel() and receive remaining escrowed balance refund
-            Block producers maintain the latest state of ScheduledCall(s) and include a SystemTx transaction at the top of their produced block
-            For heterogeneous compute, scheduled transactions use the same Scheduler interface but are executed via the Resonance fee mechanism, with brokers given a one-block heads-up
-        Future Plans
-            Extend Resonance to natively price scheduled transactions within the mechanism itself (reducing end-to-end finality time, enabling more robust execution pricing)
-            Embrace true PBS++ (proposer-builder separation) by enabling brokers to account for preferential treatment of scheduled transactions during block construction
-    2. Infernet ↔ World (/whats-new/enshrined-oracles/infernet-to-world)
-        Infernet is the most capable decentralized oracle network purpose-built for AI and heterogeneous compute, with over 8,000+ independent nodes.
+                A scheduled transaction requests data from a TEE image at a fixed interval
+                Via Resonance and Symphony, a TEE node is selected for execution
+                The TEE node executes the TEE image, collecting data from an off-chain source
+                The TEE node generates a cryptographic attestation of the data collection
+                The network validates the TEE node's attestation
+                The off-chain data is enshrined on-chain, at top-of-block, accessible to any smart contract
+            Comparison to Traditional Oracles
+                Verifiable Updates: Cryptographically secure oracle updates through ZK proofs and TEE attestations of execution
+                Reduced Trust Assumptions: No reliance on traditional validator quorums or centralized coordinator risks; default verification of outputs
+                Guaranteed Execution: Automated updates without keepers, with separate fee markets and privileged block inclusion
+                Cost Efficiency: Reduced validator incentives for oracle inclusion and optimized oracle execution via Resonance and Symphony
+            Implementation Details (from Architecture page)
+                A new predeploy contract called Scheduler is introduced, callable only by other smart contracts (including EIP-7702 delegated addresses)
+                It maintains state of ScheduledCall(s) and escrows future transaction fees
+                Developers use Scheduler.schedule() with inputs: function details, calldata, invocation frequency, optional conditional execution function (returning True/False), and fee limit preferences
+                Developers can cancel via Scheduler.cancel() and receive remaining escrowed balance refund
+                Block producers maintain the latest state of ScheduledCall(s) and include a SystemTx transaction at the top of their produced block
+                For heterogeneous compute, scheduled transactions use the same Scheduler interface but are executed via the Resonance fee mechanism, with brokers given a one-block heads-up
+            Future Plans
+                Extend Resonance to natively price scheduled transactions within the mechanism itself (reducing end-to-end finality time, enabling more robust execution pricing)
+                Embrace true PBS++ (proposer-builder separation) by enabling brokers to account for preferential treatment of scheduled transactions during block construction
+        2. Infernet ↔ World (/whats-new/enshrined-oracles/infernet-to-world)
+            Infernet is the most capable decentralized oracle network purpose-built for AI and heterogeneous compute, with over 8,000+ independent nodes.
 
-        With native integration of Infernet into Ritual Chain, Infernet nodes can now act as robust oracle coprocessors for long-running tasks, async execution, and other workloads.
+            With native integration of Infernet into Ritual Chain, Infernet nodes can now act as robust oracle coprocessors for long-running tasks, async execution, and other workloads.
 
-        This integration uniquely enables:
-            Cross-chain job execution — Requests originating on Ritual Chain via Infernet
-            Long-running execution — Infernet nodes can act as execution coprocessors
-            Delegated compute — Infernet nodes act as an additional compute backbone
-        Background (from Architecture: Infernet ↔ Chain)
-            Centralized AI APIs are broken: they geo-restrict access, require operator trust, and censor
-            Infernet was launched in November 2023 as the first decentralized oracle network for AI workloads
-            The 1.0.0 upgrade introduced audited on-chain payments, verification of compute frameworks, and streaming responses
-            Ritual Chain extends Resonance to route compute requests to Infernet nodes, extends execution sidecars to tap into the Infernet mesh, and introduces flexible Web2 adapters that abstract underlying requests orchestrated by Ritual Chain
-            For Infernet node operators, this is a seamless upgrade hyperscaling their workload demand and earnings
-            For users, this is a drop-in replacement offering competitively priced, redundantly orchestrated, private and verifiable compute
-6. Resonance
-    Resonance is a state-of-the-art, surplus-maximizing transaction fee mechanism built for heterogeneous compute with a two-sided market setting (matching users to nodes).
+            This integration uniquely enables:
+                Cross-chain job execution — Requests originating on Ritual Chain via Infernet
+                Long-running execution — Infernet nodes can act as execution coprocessors
+                Delegated compute — Infernet nodes act as an additional compute backbone
+            Background (from Architecture: Infernet ↔ Chain)
+                Centralized AI APIs are broken: they geo-restrict access, require operator trust, and censor
+                Infernet was launched in November 2023 as the first decentralized oracle network for AI workloads
+                The 1.0.0 upgrade introduced audited on-chain payments, verification of compute frameworks, and streaming responses
+                Ritual Chain extends Resonance to route compute requests to Infernet nodes, extends execution sidecars to tap into the Infernet mesh, and introduces flexible Web2 adapters that abstract underlying requests orchestrated by Ritual Chain
+                For Infernet node operators, this is a seamless upgrade hyperscaling their workload demand and earnings
+                For users, this is a drop-in replacement offering competitively priced, redundantly orchestrated, private and verifiable compute
+    6. Resonance
+        Resonance is a state-of-the-art, surplus-maximizing transaction fee mechanism built for heterogeneous compute with a two-sided market setting (matching users to nodes).
 
-    For Users:
-        Each transaction specifies a valuation it wants to pay for execution
-        Transactions can be executed by single or multiple nodes
-        Users can choose to prioritize speed or cost
-        Users can execute any type of compute without protocol-level constraints
-        Transactions can execute privately via multi-party assignment
-    For Nodes:
-        Nodes specify a cost function for each transaction, granularly dictating execution costs
-        Nodes can specialize in specific types of compute (e.g., AI inference)
-        Nodes can execute any type of compute without protocol-level constraints
-        Nodes can execute unconflicting transactions in parallel
-    For the Network:
-        Transactions are efficiently matched, optimizing for both cost and speed
-        Node capacity is optimally allocated
-        Users have full preference over transaction execution
-        With Symphony, parts of the network can be specialized
-    Brokers
-        Under the hood, Resonance introduces a new entity: brokers. Brokers are sophisticated, profit-seeking agents that compute matchings between transactions and nodes.
+        For Users:
+            Each transaction specifies a valuation it wants to pay for execution
+            Transactions can be executed by single or multiple nodes
+            Users can choose to prioritize speed or cost
+            Users can execute any type of compute without protocol-level constraints
+            Transactions can execute privately via multi-party assignment
+        For Nodes:
+            Nodes specify a cost function for each transaction, granularly dictating execution costs
+            Nodes can specialize in specific types of compute (e.g., AI inference)
+            Nodes can execute any type of compute without protocol-level constraints
+            Nodes can execute unconflicting transactions in parallel
+        For the Network:
+            Transactions are efficiently matched, optimizing for both cost and speed
+            Node capacity is optimally allocated
+            Users have full preference over transaction execution
+            With Symphony, parts of the network can be specialized
+        Brokers
+            Under the hood, Resonance introduces a new entity: brokers. Brokers are sophisticated, profit-seeking agents that compute matchings between transactions and nodes.
 
-        Think of brokers as analogous to block builders or MEV searchers — advanced participants that use informed priors to efficiently match transactions, pocketing the spread between transaction valuation and node execution cost.
+            Think of brokers as analogous to block builders or MEV searchers — advanced participants that use informed priors to efficiently match transactions, pocketing the spread between transaction valuation and node execution cost.
 
-        The properties of the Resonance mechanism ensure that brokers behave predictably and fairly — a level of reliability that Ethereum's current block-building process doesn't fully guarantee.
+            The properties of the Resonance mechanism ensure that brokers behave predictably and fairly — a level of reliability that Ethereum's current block-building process doesn't fully guarantee.
 
-    Transaction Lifecycle with Resonance
-    The simplified lifecycle with Resonance:
-        1. Enable Resonance — Users upgrade their wallet via account abstraction to the AuctioneerWallet.sol reference implementation (opt-in, reversible). For most users, this is abstracted by wallets/dApps. Power users send a SetCodeTx transaction.
-        2. Authenticate with dApps — dApps prepare transaction payloads
-        3. Use Resonance tooling — As simple as checking a "Use Resonance" box; plugs into popular libraries (Viem, Web3.js, ethers)
-        4. Users select valuation — Instead of estimating gas fees and selecting a priorityFee, users simply input their valuation
-        5. Users sign transaction payloads
-        6. Nodes receive transactions via RPC
-        7. Nodes gossip transactions
-        8. Auctioneer executes batch — The Auctioneer coordinates matching between transactions and executing nodes via brokers. Each batch, the Auctioneer:
-            Collects and decrypts node cost function submissions
-            Collects and publishes user transactions
-            Decrypts user valuation submissions
-            Collects broker routing submissions
-            Finalizes and publishes the surplus-maximizing routing
-        9. Assigned nodes execute transactions — Once routing is posted on-chain, nodes execute assigned payloads, gossiping outputs and optional proofs
-        10. Block-building, gossip, validation, and state execution proceed as normal
-    Integration with Other Ritual Systems
-        Symphony — Resonance selects sole executors for heterogeneous workloads; Symphony's EOVMT model then handles verification via distributed sub-proofs
-        Scheduled Transactions — Heterogeneous scheduled transactions use the standard Scheduler interface but are executed via Resonance's fee mechanism. Brokers get a one-block heads-up for upcoming scheduled transactions
-        Node Specialization — Resonance enables selective execution based on node specialization with private, unique execution cost functions
-    Future Work
-        Ritual plans to extend Resonance in several key areas:
-            Scheduled transaction pricing — Natively price scheduled transactions within the mechanism itself (reducing end-to-end finality time, enabling more robust execution pricing)
-            Decentralized auctioneer — No need to trust Ritual for running the auctioneer; anyone can run it
-            Streaming settings — Increased TPS for heterogeneous transactions
-            Posted price mechanisms — Research into Uber-like pricing experience for users
-            PBS++ — Enable brokers to account for preferential treatment of scheduled transactions during block construction
-            Cryptographic privacy — Enable computational integrity and privacy gadgets for the auctioneer via zkVMs & FHE
-7. Symphony
-    The Problem: Replicated Execution
-        Most blockchains today operate on replicated execution — all nodes re-execute each block to:
-            Verify transactions through re-execution
-            Compute and apply state updates to their local state
-        This model worked well for simple, homogeneous computations (basic arithmetic, hash functions). However, Ritual enables heterogeneous, resource-intensive workloads (AI inference, ZK proving, TEE execution) that not only exceed typical validator capabilities but may take minutes or even hours to execute. Replicated execution becomes redundant, inefficient, and unscalable.
+        Transaction Lifecycle with Resonance
+        The simplified lifecycle with Resonance:
+            1. Enable Resonance — Users upgrade their wallet via account abstraction to the AuctioneerWallet.sol reference implementation (opt-in, reversible). For most users, this is abstracted by wallets/dApps. Power users send a SetCodeTx transaction.
+            2. Authenticate with dApps — dApps prepare transaction payloads
+            3. Use Resonance tooling — As simple as checking a "Use Resonance" box; plugs into popular libraries (Viem, Web3.js, ethers)
+            4. Users select valuation — Instead of estimating gas fees and selecting a priorityFee, users simply input their valuation
+            5. Users sign transaction payloads
+            6. Nodes receive transactions via RPC
+            7. Nodes gossip transactions
+            8. Auctioneer executes batch — The Auctioneer coordinates matching between transactions and executing nodes via brokers. Each batch, the Auctioneer:
+                Collects and decrypts node cost function submissions
+                Collects and publishes user transactions
+                Decrypts user valuation submissions
+                Collects broker routing submissions
+                Finalizes and publishes the surplus-maximizing routing
+            9. Assigned nodes execute transactions — Once routing is posted on-chain, nodes execute assigned payloads, gossiping outputs and optional proofs
+            10. Block-building, gossip, validation, and state execution proceed as normal
+        Integration with Other Ritual Systems
+            Symphony — Resonance selects sole executors for heterogeneous workloads; Symphony's EOVMT model then handles verification via distributed sub-proofs
+            Scheduled Transactions — Heterogeneous scheduled transactions use the standard Scheduler interface but are executed via Resonance's fee mechanism. Brokers get a one-block heads-up for upcoming scheduled transactions
+            Node Specialization — Resonance enables selective execution based on node specialization with private, unique execution cost functions
+        Future Work
+            Ritual plans to extend Resonance in several key areas:
+                Scheduled transaction pricing — Natively price scheduled transactions within the mechanism itself (reducing end-to-end finality time, enabling more robust execution pricing)
+                Decentralized auctioneer — No need to trust Ritual for running the auctioneer; anyone can run it
+                Streaming settings — Increased TPS for heterogeneous transactions
+                Posted price mechanisms — Research into Uber-like pricing experience for users
+                PBS++ — Enable brokers to account for preferential treatment of scheduled transactions during block construction
+                Cryptographic privacy — Enable computational integrity and privacy gadgets for the auctioneer via zkVMs & FHE
+    7. Symphony
+        The Problem: Replicated Execution
+            Most blockchains today operate on replicated execution — all nodes re-execute each block to:
+                Verify transactions through re-execution
+                Compute and apply state updates to their local state
+            This model worked well for simple, homogeneous computations (basic arithmetic, hash functions). However, Ritual enables heterogeneous, resource-intensive workloads (AI inference, ZK proving, TEE execution) that not only exceed typical validator capabilities but may take minutes or even hours to execute. Replicated execution becomes redundant, inefficient, and unscalable.
 
-    What Is Symphony?
-        Symphony is a new consensus protocol that leverages dual proof sharding, distributed verification, and optimized committee election to reduce replicated execution and enable high-performance, resource-intensive workloads.
+        What Is Symphony?
+            Symphony is a new consensus protocol that leverages dual proof sharding, distributed verification, and optimized committee election to reduce replicated execution and enable high-performance, resource-intensive workloads.
 
-        While originally designed as an extension to Ethereum's Gasper, Symphony is consensus-gadget agnostic and can work with aBFT protocols, which Ritual initially targets.
+            While originally designed as an extension to Ethereum's Gasper, Symphony is consensus-gadget agnostic and can work with aBFT protocols, which Ritual initially targets.
 
-    Core Model: Execute-Once-Verify-Many-Times (EOVMT)
-        Symphony builds upon an EOVMT model where select compute nodes act as sole executors of workloads, generating succinct sub-proofs for executed compute.
+        Core Model: Execute-Once-Verify-Many-Times (EOVMT)
+            Symphony builds upon an EOVMT model where select compute nodes act as sole executors of workloads, generating succinct sub-proofs for executed compute.
 
-        Three Key Innovations:
-            1. Execute-Once Semantics
-                Transaction operations are partitioned into two sets:
-                    Homogeneous operations (existing EVM opcodes)
-                    Heterogeneous operations (unique Ritual functionality — AI inference, ZK, TEE, etc.)
-                Heterogeneous operations are executed only once by selected, staked executor nodes. These nodes gossip their execution outputs to other validators. When transactions containing these operations appear in a block proposal, validators directly slot in the gossiped outputs into their EVM state rather than re-executing.
+            Three Key Innovations:
+                1. Execute-Once Semantics
+                    Transaction operations are partitioned into two sets:
+                        Homogeneous operations (existing EVM opcodes)
+                        Heterogeneous operations (unique Ritual functionality — AI inference, ZK, TEE, etc.)
+                    Heterogeneous operations are executed only once by selected, staked executor nodes. These nodes gossip their execution outputs to other validators. When transactions containing these operations appear in a block proposal, validators directly slot in the gossiped outputs into their EVM state rather than re-executing.
 
-                To ensure correctness without recomputation, Symphony employs succinct non-interactive proofs of execution that are prover-optimized. Since SPC opcode execution and proof generation occur asynchronously off-chain, proof generation does not impact the on-chain critical path.
+                    To ensure correctness without recomputation, Symphony employs succinct non-interactive proofs of execution that are prover-optimized. Since SPC opcode execution and proof generation occur asynchronously off-chain, proof generation does not impact the on-chain critical path.
 
-                Ritual prioritizes prover-friendly systems with linear or near-linear proof generation time, further optimizable through parallel proof generation using multi-core or multi-machine setups.
+                    Ritual prioritizes prover-friendly systems with linear or near-linear proof generation time, further optimizable through parallel proof generation using multi-core or multi-machine setups.
 
-            2. Distributed Verification via Partitioned Proofs
-                While execute-once resolves execution scalability, verifying proofs remains challenging because:
+                2. Distributed Verification via Partitioned Proofs
+                    While execute-once resolves execution scalability, verifying proofs remains challenging because:
 
-                Proof sizes grow polylogarithmically with model complexity
-                Single blocks may contain many transactions generating multiple proofs
-                This inflates block sizes, hinders network propagation, and increases verification overhead
-                Symphony introduces a four-pronged scalability strategy:
+                    Proof sizes grow polylogarithmically with model complexity
+                    Single blocks may contain many transactions generating multiple proofs
+                    This inflates block sizes, hinders network propagation, and increases verification overhead
+                    Symphony introduces a four-pronged scalability strategy:
 
-                Strategy	Description
-                    Model Partitioning: Large models are divided into smaller sub-models, each with their own sub-proofs, producing smaller proofs that can be efficiently propagated and verified
-                    Proof Sharding: Each sub-proof can be further divided into proof shards by breaking the computation trace into smaller fragments, leveraging the inherent structure of the proof system
-                    Off-chain Proof Storage: Blocks contain only outputs with off-chain references to associated proofs, keeping verification metadata minimal
-                    Distributed Verification: Sub-proofs are assigned to different validator subsets through uniform deterministic assignment. A quorum of assigned validators verifies each proof shard, and their consensus is accepted by the network
-                An output is considered trusted and fully validated when all associated proof shards are validated by the quorum of assigned validators. EOVMT is also compatible with broker-based solutions for verifier assignment, such as Resonance.
+                    Strategy	Description
+                        Model Partitioning: Large models are divided into smaller sub-models, each with their own sub-proofs, producing smaller proofs that can be efficiently propagated and verified
+                        Proof Sharding: Each sub-proof can be further divided into proof shards by breaking the computation trace into smaller fragments, leveraging the inherent structure of the proof system
+                        Off-chain Proof Storage: Blocks contain only outputs with off-chain references to associated proofs, keeping verification metadata minimal
+                        Distributed Verification: Sub-proofs are assigned to different validator subsets through uniform deterministic assignment. A quorum of assigned validators verifies each proof shard, and their consensus is accepted by the network
+                    An output is considered trusted and fully validated when all associated proof shards are validated by the quorum of assigned validators. EOVMT is also compatible with broker-based solutions for verifier assignment, such as Resonance.
 
-            3. Optimized Committee Election
-                For scenarios where no succinct proof system exists or verification would be prohibitively expensive, Symphony designates a smaller group of validators who work together to validate operation outputs, forming a quorum on correctness. Quorum results serve as a fast-path to justified execution while remaining compatible with EOVMT's broader execute-once-verify-many-times principle.
-                Flexible Proof Systems
-                    Symphony is proof-system agnostic, supporting multiple proof technologies:
-                        TEE Attestations — Initial implementation uses Trusted Execution Environments for rapid verification with hardware-backed security guarantees
-                        Zero-Knowledge Proofs — Parallel development offering stronger cryptographic guarantees, especially for privacy-sensitive computations
-                        Hybrid Approaches — Future implementations may combine TEEs for fast transaction confirmation with ZK proofs for additional security assurances
-                EOVMT Lifecycle
-                Step-by-step:
-                    Sole executor selected — A single node is selected via Resonance's optimized fee mechanism and matching protocol
-                    Executor processes request — The node executes the compute workload, generating succinct sub-proofs in the process
-                    Sub-proofs gossiped and verified — Generated sub-proofs are verified by a subset of validator nodes (not re-executed)
-                    Validators assert correctness — The decentralized subset ensures all sub-proofs are valid; the rest of the network applies state changes without redundant re-execution or verification, relying on the safety guarantees of the consensus protocol
-                Key Benefits
-                    Optimized: A single node executes resource-intensive workloads and generates sub-proofs
-                    Decentralized: Each sub-proof is assigned to a subset of validators in a decentralized manner
-                    Streamlined: The network collectively reaches consensus on execution validity through validators sharing their approvals on sub-proofs' verification
-                    Eliminates inefficiencies of both replicated execution (all nodes re-execute) and replicated verification (all nodes verify all proofs)
-                    Introduces native support for node specialization
-                Safety and Liveness
-                    Liveness: Guaranteed through an incentive mechanism ensuring compute and validator nodes are economically motivated to perform their roles (similar to Ethereum 2.0's rewards and penalties)
-                    Safety: Adopts a probabilistic (computational) safety approach. With at least ⅔ of total staked value controlled by honest participants and uniformly staked validators, Symphony leaves only a negligible chance of safety violation, comparable to the probability of a secure hash collision
-                Background: Consensus Context
-                Symphony is informed by two existing consensus approaches:
-                    Ethereum 2.0 (Gasper): Hybrid PoS using Casper FFG for finalization and LMD-GHOST fork-choice rule; finality takes multiple epochs
-                    CometBFT: Pure BFT protocol achieving single-shot finality when >⅔ of validators pre-commit; mostly asynchronous with weak synchrony assumptions for liveness
-8. Node specialization
-    Background:
-        Traditional blockchains like Ethereum operate by coming to consensus over ordering and replicated execution of transactions. Step-by-step, it looks something like:
-            - Block proposer elected: A leader, more commonly referred to as a block proposer, is elected to extend the chain by proposing a block (today, via stake-weighted pseudo-random selection). This block proposer collects transactions from both public and private transaction pools (using by running a sidecar like mev-boost), builds a valid block according to protocol rules, and broadcasts it to the rest of the network.
-            - Validator re-execution: Next, all validators in the network receive the new head block from the block proposer and re-execute the block locally, via their execution clients, to determine block validity. Today, in Ethereum (via the official specification), this involves asserting:
-                    - A block header is valid
-                    - All transaction(s) are valid by their validity rules
-                    - The sum of transaction gasLimit(s) do not exceed the block gasLimit
-                    - A block’s stateRoot matches a local stateRoot after executing all transactions
-                    - …and similar txsRoot, withdrawalsHash, ommersHash, and other checks
-                Notice, in step 4, that Ethereum validators, irrespective of their hardware or specifications, must be capable of executing all Ethereum transactions.
-            Achieving consensus: Finally, validators that have re-executed and asserted validity of a new head block publish their votes in favour of the block. Via the fork choice rule, all correct nodes eventually agree on a common view of the canonical chain, finalizing a block to Ethereum state.
-        Limitations
-            Today, the Ethereum Virtual Machine is purposefully limited in the types, computational complexity, and cost of operations it supports.
-            In part, this is because of a conflict in Ethereum’s architecture demanding each node execute all transactions, yet prohibitively low minimum requirements to run a node, optimized for the long-tail of residential validators.
-            Commonly, proposals to improve chain performance or enable net-new user functionality are met with pushback to preserve the minimum requirements.
-                Namely, this results in:
-                    Only supporting limited, homogeneous computation optimized for the weakest node
-                    Best-case chain performance dependent on worst-case node performance
-                    No user preference over compute execution; all nodes paid the same irrespective of hardware, capabilities, or performance
-        Optimized Architecture
-            Ritual Chain introduces node specialization through architecture purpose-built for reducing redundant re-execution and enabling user preference:
-                Symphony reduces replicated execution
-                    Symphony is a new consensus protocol leveraging dual proof sharding, distributed verification, and optimal sampling to reduce replicated execution.
-                    At core, the principle behind Symphony is to execute-once-verify-many-times. Single nodes are selected for transaction execution (via Resonance). In addition to generating execution outputs, these nodes also generate succinct computation proofs.
-                    In place of transaction re-execution by all validators, subsets of nodes now verify succinct proofs and broadcast transaction validity, with the network collectively reaching execution consensus.
-                    Via Symphony, re-execution is made redundant, with nodes free to service just their specialized computation, while still participating in validating the network.
-                Resonance enables user preference
-                    Resonance is a new, state-of-the-art fee mechanism built for heterogeneous compute.
-                        Traditional blockchains like Ethereum:
-                            - Inefficiently price unique resources (computation, storage, etc.) as identical
-                            - Force users to pay fees subsidizing transaction re-execution across all nodes
-                            - Limit users from expressing their execution preferences
-                        Resonance is a two-sided marketplace to match heterogeneous transactions to heterogeneous nodes.
-                        Via Resonance, users can express their preferences to prioritize cost or speed, with transactions efficiently matched to specialized execution nodes.
-        Benefits
-            Via this architecture, Ritual Chain is the most expressive blockchain in existence, built to meet the demands of complex on-chain applications and enable net-new user functionality:
-                Node specialization optimizes network performance, allowing for smoother, more tailored processing across different workloads.
-                Nodes are rewarded based on their unique computational strengths, creating a diverse ecosystem that incentivizes both high-performance and resource-constrained participants to join and contribute effectively.
-                Users gain flexibility, with options to prioritize cost or speed based on their preferences.
-9. Guardians
-    Advanced compute firewalls for specialized node operation.
-    Just as traditional firewalls filter network traffic, Ritual Guardians enable computational and semantic filtering of blockchain operations.
-    These filters empower node operators to granularly provision the set of requests they want to service, while still maintaining consensus participation in the network.
-        Statistical Firewalls
-            Statistical firewalls enable nodes to hyperspecialize, only processing prompts and workloads that align with their intended use cases. For example, a node could choose to only process scientific computing tasks that fall within an embedding distance from core scientific topics.
-        Consensus Preservation
-            While nodes can opt out of direct computation, they maintain network security by:
-                Verifying succinct proofs from executor nodes
-                Participating in Symphony’s consensus
-                Contributing to network diversity
-10. Modular Storage
-    Storage-agnostic approach to data, with support for Web2 and Web3 venues.
-        Current State
-            Modern blockchains operate with limited, expensive on-chain storage capabilities:
-            No native integration with external storage systems, centralized or decentralized
-            Smart contracts cannot directly access or compute over stored data
-            Complex off-chain infrastructure required for data storage operations
-            Fragmented storage solutions across Web2 and Web3
-        Ritual operates with large data objects like AI models and features that demand robust, cost-effective storage and high-performance caches for best performance.    
-    Ritual’s Innovation
-        Ritual introduces a provider-agnostic approach to storage by abstracting storage access into the familiar concept of repositories.
-        Through initial native integration with both Web2 (via Hugging Face Hub) and Web3 (via Arweave) storage layers, smart contracts can directly access and compute over data while maintaining consistent security guarantees.
-        This unified system enables developers to choose storage solutions based on their specific needs—whether that’s rapid prototyping with familiar web2 tools or ensuring permanent, censorship-resistant data availability through decentralized storage.
+                3. Optimized Committee Election
+                    For scenarios where no succinct proof system exists or verification would be prohibitively expensive, Symphony designates a smaller group of validators who work together to validate operation outputs, forming a quorum on correctness. Quorum results serve as a fast-path to justified execution while remaining compatible with EOVMT's broader execute-once-verify-many-times principle.
+                    Flexible Proof Systems
+                        Symphony is proof-system agnostic, supporting multiple proof technologies:
+                            TEE Attestations — Initial implementation uses Trusted Execution Environments for rapid verification with hardware-backed security guarantees
+                            Zero-Knowledge Proofs — Parallel development offering stronger cryptographic guarantees, especially for privacy-sensitive computations
+                            Hybrid Approaches — Future implementations may combine TEEs for fast transaction confirmation with ZK proofs for additional security assurances
+                    EOVMT Lifecycle
+                    Step-by-step:
+                        Sole executor selected — A single node is selected via Resonance's optimized fee mechanism and matching protocol
+                        Executor processes request — The node executes the compute workload, generating succinct sub-proofs in the process
+                        Sub-proofs gossiped and verified — Generated sub-proofs are verified by a subset of validator nodes (not re-executed)
+                        Validators assert correctness — The decentralized subset ensures all sub-proofs are valid; the rest of the network applies state changes without redundant re-execution or verification, relying on the safety guarantees of the consensus protocol
+                    Key Benefits
+                        Optimized: A single node executes resource-intensive workloads and generates sub-proofs
+                        Decentralized: Each sub-proof is assigned to a subset of validators in a decentralized manner
+                        Streamlined: The network collectively reaches consensus on execution validity through validators sharing their approvals on sub-proofs' verification
+                        Eliminates inefficiencies of both replicated execution (all nodes re-execute) and replicated verification (all nodes verify all proofs)
+                        Introduces native support for node specialization
+                    Safety and Liveness
+                        Liveness: Guaranteed through an incentive mechanism ensuring compute and validator nodes are economically motivated to perform their roles (similar to Ethereum 2.0's rewards and penalties)
+                        Safety: Adopts a probabilistic (computational) safety approach. With at least ⅔ of total staked value controlled by honest participants and uniformly staked validators, Symphony leaves only a negligible chance of safety violation, comparable to the probability of a secure hash collision
+                    Background: Consensus Context
+                    Symphony is informed by two existing consensus approaches:
+                        Ethereum 2.0 (Gasper): Hybrid PoS using Casper FFG for finalization and LMD-GHOST fork-choice rule; finality takes multiple epochs
+                        CometBFT: Pure BFT protocol achieving single-shot finality when >⅔ of validators pre-commit; mostly asynchronous with weak synchrony assumptions for liveness
+    8. Node specialization
+        Background:
+            Traditional blockchains like Ethereum operate by coming to consensus over ordering and replicated execution of transactions. Step-by-step, it looks something like:
+                - Block proposer elected: A leader, more commonly referred to as a block proposer, is elected to extend the chain by proposing a block (today, via stake-weighted pseudo-random selection). This block proposer collects transactions from both public and private transaction pools (using by running a sidecar like mev-boost), builds a valid block according to protocol rules, and broadcasts it to the rest of the network.
+                - Validator re-execution: Next, all validators in the network receive the new head block from the block proposer and re-execute the block locally, via their execution clients, to determine block validity. Today, in Ethereum (via the official specification), this involves asserting:
+                        - A block header is valid
+                        - All transaction(s) are valid by their validity rules
+                        - The sum of transaction gasLimit(s) do not exceed the block gasLimit
+                        - A block’s stateRoot matches a local stateRoot after executing all transactions
+                        - …and similar txsRoot, withdrawalsHash, ommersHash, and other checks
+                    Notice, in step 4, that Ethereum validators, irrespective of their hardware or specifications, must be capable of executing all Ethereum transactions.
+                Achieving consensus: Finally, validators that have re-executed and asserted validity of a new head block publish their votes in favour of the block. Via the fork choice rule, all correct nodes eventually agree on a common view of the canonical chain, finalizing a block to Ethereum state.
+            Limitations
+                Today, the Ethereum Virtual Machine is purposefully limited in the types, computational complexity, and cost of operations it supports.
+                In part, this is because of a conflict in Ethereum’s architecture demanding each node execute all transactions, yet prohibitively low minimum requirements to run a node, optimized for the long-tail of residential validators.
+                Commonly, proposals to improve chain performance or enable net-new user functionality are met with pushback to preserve the minimum requirements.
+                    Namely, this results in:
+                        Only supporting limited, homogeneous computation optimized for the weakest node
+                        Best-case chain performance dependent on worst-case node performance
+                        No user preference over compute execution; all nodes paid the same irrespective of hardware, capabilities, or performance
+            Optimized Architecture
+                Ritual Chain introduces node specialization through architecture purpose-built for reducing redundant re-execution and enabling user preference:
+                    Symphony reduces replicated execution
+                        Symphony is a new consensus protocol leveraging dual proof sharding, distributed verification, and optimal sampling to reduce replicated execution.
+                        At core, the principle behind Symphony is to execute-once-verify-many-times. Single nodes are selected for transaction execution (via Resonance). In addition to generating execution outputs, these nodes also generate succinct computation proofs.
+                        In place of transaction re-execution by all validators, subsets of nodes now verify succinct proofs and broadcast transaction validity, with the network collectively reaching execution consensus.
+                        Via Symphony, re-execution is made redundant, with nodes free to service just their specialized computation, while still participating in validating the network.
+                    Resonance enables user preference
+                        Resonance is a new, state-of-the-art fee mechanism built for heterogeneous compute.
+                            Traditional blockchains like Ethereum:
+                                - Inefficiently price unique resources (computation, storage, etc.) as identical
+                                - Force users to pay fees subsidizing transaction re-execution across all nodes
+                                - Limit users from expressing their execution preferences
+                            Resonance is a two-sided marketplace to match heterogeneous transactions to heterogeneous nodes.
+                            Via Resonance, users can express their preferences to prioritize cost or speed, with transactions efficiently matched to specialized execution nodes.
+            Benefits
+                Via this architecture, Ritual Chain is the most expressive blockchain in existence, built to meet the demands of complex on-chain applications and enable net-new user functionality:
+                    Node specialization optimizes network performance, allowing for smoother, more tailored processing across different workloads.
+                    Nodes are rewarded based on their unique computational strengths, creating a diverse ecosystem that incentivizes both high-performance and resource-constrained participants to join and contribute effectively.
+                    Users gain flexibility, with options to prioritize cost or speed based on their preferences.
+    9. Guardians
+        Advanced compute firewalls for specialized node operation.
+        Just as traditional firewalls filter network traffic, Ritual Guardians enable computational and semantic filtering of blockchain operations.
+        These filters empower node operators to granularly provision the set of requests they want to service, while still maintaining consensus participation in the network.
+            Statistical Firewalls
+                Statistical firewalls enable nodes to hyperspecialize, only processing prompts and workloads that align with their intended use cases. For example, a node could choose to only process scientific computing tasks that fall within an embedding distance from core scientific topics.
+            Consensus Preservation
+                While nodes can opt out of direct computation, they maintain network security by:
+                    Verifying succinct proofs from executor nodes
+                    Participating in Symphony’s consensus
+                    Contributing to network diversity
+    10. Modular Storage
+        Storage-agnostic approach to data, with support for Web2 and Web3 venues.
+            Current State
+                Modern blockchains operate with limited, expensive on-chain storage capabilities:
+                No native integration with external storage systems, centralized or decentralized
+                Smart contracts cannot directly access or compute over stored data
+                Complex off-chain infrastructure required for data storage operations
+                Fragmented storage solutions across Web2 and Web3
+            Ritual operates with large data objects like AI models and features that demand robust, cost-effective storage and high-performance caches for best performance.    
+        Ritual’s Innovation
+            Ritual introduces a provider-agnostic approach to storage by abstracting storage access into the familiar concept of repositories.
+            Through initial native integration with both Web2 (via Hugging Face Hub) and Web3 (via Arweave) storage layers, smart contracts can directly access and compute over data while maintaining consistent security guarantees.
+            This unified system enables developers to choose storage solutions based on their specific needs—whether that’s rapid prototyping with familiar web2 tools or ensuring permanent, censorship-resistant data availability through decentralized storage.
 
 RITUAL FOR USER 
     AI Agents — A framework for building verifiable, autonomous on-chain agents.
@@ -799,6 +800,16 @@ BEYOND CRYPTO X AI
                 Model Marketplace: Creating a verifiable marketplace for intellectual property and compute assets.
             Through these innovations, Ritual becomes more than just a platform—it evolves into the schelling point for Web3’s most demanding computational needs, current and future.
 
+HOW TO BUILD ON RITUAL
+    Here's an overview of how to build on Ritual:
+        Getting Started with Ritual's EVM++
+            Ritual extends the Ethereum Virtual Machine into what it calls EVM++. This gives developers access to expressive compute precompiles — including AI inference, ZK proofs, TEE execution, and cross-chain state access — all through a familiar Solidity development experience. You can use the RitualLib solidity library to interact with these precompiles on-chain.
+        Key Building Blocks
+            Ritual provides several native primitives for builders: Scheduled Transactions let you automate recurring smart contract calls without external keepers. Classical ML and LLM precompiles allow you to run ONNX models or large language models directly from your contracts. TEE precompiles enable secure off-chain computation, and Wormhole queries support cross-chain data reads.
+        Tutorials & Use Cases
+            Ritual offers step-by-step tutorials showing how to combine these primitives. For example, you can build Automated Prediction Markets that use TEEs to research data, pipe it into an LLM to generate market prompts, and schedule everything automatically. You can create Cross-Chain Yield Aggregators that read yield data from multiple chains via Wormhole and optimize allocations with ML models. Or build Lending Protocols that dynamically adjust liquidation thresholds using on-chain ML inference and scheduled updates.
+        Case Studies
+            Ritual also documents real-world case studies like Basis Trading (automated risk management and execution optimization), Smart Agents (verifiable autonomous agents with provable autonomy), and more — all leveraging Ritual's native AI, privacy, and scheduling capabilities.
 
-
-
+RITUAL FOR NODE RUNNERS
+    Currently, you can participate in running nodes on Ritual by operating an Infernet node. Ritual Chain itself is in private testnet, but the architecture is designed to enable broad participation when it goes public. No specific hardware is strictly required — whether you have a basic home setup or datacenter-grade hardware, Ritual's node specialization system will ensure your node contributes meaningfully. Nodes can specialize in AI Inference, ZK Proving, or TEE Code Execution, and features like Guardians (a granular firewall system) and Native Infernet Integration allow operators to balance security, performance, and compute delegation. More ways to participate will be announced as Ritual continues to open-source.
